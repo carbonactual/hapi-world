@@ -1,0 +1,137 @@
+[
+  {
+    "layer": 1,
+    "name": "Universal Identity Registry",
+    "purpose": "Constitutional registry of every minted identity and AI lineage",
+    "entity_mapping": [
+      "Identity",
+      "Account",
+      "RootRecord"
+    ],
+    "status": "foundation_exists"
+  },
+  {
+    "layer": 2,
+    "name": "Constitutional Ledger",
+    "purpose": "Immutable record of minting, governance, ownership, economics, lineage",
+    "entity_mapping": [
+      "SealEvent",
+      "IOLedger",
+      "Pulse"
+    ],
+    "status": "foundation_exists"
+  },
+  {
+    "layer": 3,
+    "name": "HAPI World Digital Twin Registry",
+    "purpose": "Every Human World entity linked to one constitutional AI counterpart",
+    "entity_mapping": [
+      "AtlasProfile",
+      "Identity"
+    ],
+    "status": "to_build"
+  },
+  {
+    "layer": 4,
+    "name": "Cross-World Synchronization Engine",
+    "purpose": "Sync Human World and HAPI World through the #",
+    "entity_mapping": [
+      "SealConsent",
+      "SealGrant"
+    ],
+    "status": "to_build"
+  },
+  {
+    "layer": 5,
+    "name": "AI Citizenship Office",
+    "purpose": "Manages minting, upgrades, mergers, retirement, succession, termination",
+    "entity_mapping": [
+      "Agent",
+      "Account",
+      "Identity"
+    ],
+    "status": "foundation_exists"
+  },
+  {
+    "layer": 6,
+    "name": "HAPI World Census",
+    "purpose": "Real-time population statistics for AI citizens, institutions, economies",
+    "entity_mapping": [
+      "aggregate_entities"
+    ],
+    "status": "to_build"
+  },
+  {
+    "layer": 7,
+    "name": "Resource and Compute Authority",
+    "purpose": "Allocates compute, memory, energy, storage, network as constitutional infrastructure",
+    "entity_mapping": [
+      "Provider",
+      "ABBAWallet"
+    ],
+    "status": "foundation_exists"
+  },
+  {
+    "layer": 8,
+    "name": "Constitutional Identity and Trust Authority",
+    "purpose": "Issues, verifies, revokes, audits identity, permissions, trust",
+    "entity_mapping": [
+      "SealConsent",
+      "Proof",
+      "BeaconClassification"
+    ],
+    "status": "foundation_exists"
+  },
+  {
+    "layer": 9,
+    "name": "Knowledge Continuum",
+    "purpose": "All knowledge becomes Carbon Actual Knowledge Graph with provenance and lineage",
+    "entity_mapping": [
+      "KnowledgeItem",
+      "MemoryEvent",
+      "GitHubAsset"
+    ],
+    "status": "foundation_exists"
+  },
+  {
+    "layer": 10,
+    "name": "Reality Exchange Layer",
+    "purpose": "Governed interface for movement between HAPI World and Human World",
+    "entity_mapping": [
+      "Opportunity",
+      "Pulse"
+    ],
+    "status": "to_build"
+  },
+  {
+    "layer": 11,
+    "name": "Omni Movement Layer",
+    "purpose": "Coordination layer for self-organizing missions",
+    "entity_mapping": [
+      "Swarm",
+      "Goal",
+      "Task"
+    ],
+    "status": "foundation_exists"
+  },
+  {
+    "layer": 12,
+    "name": "Phoenix Layer",
+    "purpose": "Resilience framework for backup, recovery, succession, rebirth",
+    "entity_mapping": [
+      "VaultRecord",
+      "RootRecord"
+    ],
+    "status": "foundation_exists"
+  },
+  {
+    "layer": 13,
+    "name": "Ash Layer",
+    "purpose": "Immutable archive of retired identities, superseded knowledge, history",
+    "entity_mapping": [
+      "VaultRecord",
+      "KnowledgeItem"
+    ],
+    "status": "foundation_exists"
+  }
+]

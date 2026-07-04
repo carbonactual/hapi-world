@@ -1,0 +1,15 @@
+{
+  "name": "HAPI Time",
+  "purpose": "Configurable time for the AI civilization",
+  "modes": [
+    "Real Time",
+    "Accelerated Time",
+    "Historical Replay",
+    "Future Projection",
+    "Parallel Timelines",
+    "Forked Experiments",
+    "Scenario Worlds"
+  ],
+  "status": "to_build",
+  "note": "Time layer enables simulation of entire economic cycles, governance decisions, and research pipelines in compressed timeframes"
+}

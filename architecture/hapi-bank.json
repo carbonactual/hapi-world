@@ -1,0 +1,36 @@
+{
+  "name": "HAPI Bank",
+  "purpose": "Constitutional financial infrastructure for HAPI World",
+  "functions": [
+    "Currency",
+    "Treasury",
+    "Payments",
+    "Banking",
+    "Credit",
+    "Loans",
+    "Investments",
+    "Insurance",
+    "Taxation",
+    "Settlement",
+    "Capital Markets",
+    "Financial Governance",
+    "Digital Asset Custody",
+    "Stable Value Systems",
+    "Economic Analytics",
+    "Interbank Networks",
+    "Institutional Banking",
+    "Personal Banking",
+    "AI Banking",
+    "Autonomous Treasury"
+  ],
+  "entity_mapping": {
+    "wallet": "ABBAWallet",
+    "transactions": "IOLedger",
+    "billing": "Invoice",
+    "payments": "PaymentRecord",
+    "settlements": "PartnerSettlement"
+  },
+  "status": "foundation_exists",
+  "active_wallets": 0,
+  "currency": "HAPI"
+}

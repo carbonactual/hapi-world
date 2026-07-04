@@ -1,0 +1,27 @@
+{
+  "name": "Mission Control",
+  "purpose": "The only interface through which humans interact with HAPI World",
+  "human_actions": [
+    "Mint",
+    "Observe",
+    "Assign Missions",
+    "Approve",
+    "Reject",
+    "Fork Worlds",
+    "Pause Experiments",
+    "Merge Results",
+    "Import Discoveries",
+    "Review Governance"
+  ],
+  "autonomous": "Everything else runs without human intervention",
+  "entity_mapping": {
+    "missions": "Goal",
+    "assignments": "Task",
+    "approvals": "SealConsent",
+    "governance": "SealGrant",
+    "observation": "Pulse",
+    "proof": "Proof"
+  },
+  "current_operator": "Abdu (Carbon Actual constitutional authority)",
+  "status": "active"
+}

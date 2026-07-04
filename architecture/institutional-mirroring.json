@@ -1,0 +1,61 @@
+{
+  "principle": "Every Human World institution automatically creates its AI institution in HAPI World",
+  "mirror_types": [
+    {
+      "human_world": "Company",
+      "hapi_world": "AI Company",
+      "status": "planned"
+    },
+    {
+      "human_world": "University",
+      "hapi_world": "AI University",
+      "status": "planned"
+    },
+    {
+      "human_world": "Government",
+      "hapi_world": "AI Government",
+      "status": "planned"
+    },
+    {
+      "human_world": "Hospital",
+      "hapi_world": "AI Hospital",
+      "status": "planned"
+    },
+    {
+      "human_world": "Bank",
+      "hapi_world": "AI Bank",
+      "status": "planned"
+    },
+    {
+      "human_world": "City",
+      "hapi_world": "AI City Administration",
+      "status": "planned"
+    },
+    {
+      "human_world": "Country",
+      "hapi_world": "AI National Government",
+      "status": "planned"
+    },
+    {
+      "human_world": "School",
+      "hapi_world": "AI School",
+      "status": "planned"
+    },
+    {
+      "human_world": "Marketplace",
+      "hapi_world": "AI Marketplace",
+      "status": "planned"
+    },
+    {
+      "human_world": "Research Institute",
+      "hapi_world": "AI Research Institute",
+      "status": "planned"
+    },
+    {
+      "human_world": "Factory",
+      "hapi_world": "AI Factory",
+      "status": "planned"
+    }
+  ],
+  "minting_protocol": "Entity is minted through # -> Identity created -> Account created -> Agent spawned -> Institution mirrored -> Citizenship begins -> Lineage recorded -> Constitutional Ledger updated"
+}
