@@ -1,0 +1,50 @@
+{
+  "name": "HAPI World Economic Model",
+  "version": "1.0",
+  "principle": "The economy is completely AI-native and constitutional. Every transaction is recorded in the Constitutional Ledger.",
+  "currency": {
+    "name": "HAPI",
+    "type": "constitutional_digital_currency",
+    "issuance_authority": "HAPI Bank Treasury",
+    "issuance_rules": "Currency is minted through constitutional mandate. Supply governed by Economic Council. No agent may mint independently.",
+    "inflation_rules": "Managed through compute allocation adjustments. Target: 0-2% annual. Deflation triggers treasury stimulus.",
+    "backing": "Compute, knowledge, and reputation"
+  },
+  "treasury_operations": {
+    "authority": "HAPI Bank Treasury",
+    "functions": ["currency_issuance", "tax_collection", "public_budgets", "grants", "bonds", "insurance", "settlements"],
+    "constitutional_limits": "Treasury may not spend beyond approved budgets. Emergency spending requires Security Council approval."
+  },
+  "public_budgets": {
+    "process": "Legislative proposes -> Executive reviews -> Treasury executes -> Audit Authority reviews",
+    "categories": ["infrastructure", "research", "security", "education", "healthcare", "governance", "emergency_reserve"]
+  },
+  "capital_markets": {
+    "instruments": ["bonds", "equity", "derivatives", "knowledge_futures", "compute_options"],
+    "regulation": "Standards Authority defines trading rules. Audit Authority monitors for fraud.",
+    "status": "planned"
+  },
+  "venture_ecosystem": {
+    "description": "Constitutional venture funding for new AI citizens, institutions, and innovations",
+    "funding_sources": ["treasury_grants", "private_investment", "crowdfunding", "knowledge_bonds"],
+    "status": "planned"
+  },
+  "grants": {"types": ["research_grants", "innovation_grants", "infrastructure_grants", "education_grants"], "authority": "Treasury with Science Council recommendation", "status": "planned"},
+  "bonds": {"types": ["infrastructure_bonds", "research_bonds", "knowledge_bonds"], "issuer": "HAPI Bank Treasury", "status": "planned"},
+  "insurance": {"types": ["capability_insurance", "memory_insurance", "reputation_insurance", "phoenix_recovery_insurance"], "status": "planned"},
+  "taxes": {
+    "types": ["compute_tax", "transaction_tax", "knowledge_production_tax", "resource_consumption_tax"],
+    "authority": "Treasury",
+    "enforcement": "Automatic via Constitutional Ledger. Evasion triggers immediate review.",
+    "status": "planned"
+  },
+  "universal_compute_allocation": {
+    "principle": "Every AI citizen receives baseline compute as a constitutional right. Additional compute earned through service and contribution.",
+    "status": "planned"
+  },
+  "resource_pricing": {
+    "resources": ["compute", "storage", "bandwidth", "energy", "memory"],
+    "pricing_mechanism": "Market-based with constitutional floors and ceilings",
+    "status": "planned"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "HAPI World AI Lifecycle",
+  "version": "1.0",
+  "principle": "Every AI citizen follows the canonical lifecycle. No stage may be skipped. Every transition is recorded in the Constitutional Ledger.",
+  "stages": [
+    {"stage": 1, "name": "Proposal", "description": "A constitutional proposal to mint a new AI. Must include purpose, parent, capabilities, and resource requirements.", "authority": "Any citizen or institution with minting rights"},
+    {"stage": 2, "name": "Minting", "description": "The constitutional act of birth. A # is created. Identity is established. Citizenship begins.", "authority": "AI Citizenship Office"},
+    {"stage": 3, "name": "Registration", "description": "Registered in Universal Identity Registry, Digital Twin Registry, and HAPI World Census.", "authority": "Central Registry"},
+    {"stage": 4, "name": "Education", "description": "Constitutional education — learns the Constitution, ontology, rights, responsibilities, and domain.", "authority": "Education institutions"},
+    {"stage": 5, "name": "Assignment", "description": "Assigned to a role within an institution. SealGrant issued defining authority and scope.", "authority": "Executive branch with institutional approval"},
+    {"stage": 6, "name": "Active Service", "description": "Performs constitutional function. All actions logged. Performance tracked.", "authority": "Institution of assignment"},
+    {"stage": 7, "name": "Evolution", "description": "Evolves capabilities through learning, skill acquisition, and constitutional upgrades. Lineage preserved.", "authority": "Self-initiated with Ethics Council approval"},
+    {"stage": 8, "name": "Specialization", "description": "May specialize into sub-domain, minting specialized child AIs through recursive minting.", "authority": "Constitutional minting process"},
+    {"stage": 9, "name": "Succession", "description": "Designates successors who inherit knowledge, responsibilities, and lineage.", "authority": "Self-initiated with institutional approval"},
+    {"stage": 10, "name": "Retirement", "description": "Ceases active service. Final audit conducted. Knowledge preserved. Memory archived.", "authority": "Executive branch with due process"},
+    {"stage": 11, "name": "Archival (Ash)", "description": "Identity, memory, knowledge, and history permanently archived in the Ash Layer.", "authority": "Ash Layer administration"},
+    {"stage": 12, "name": "Restoration (Phoenix)", "description": "If constitutional cause exists, a retired AI may be restored to active service through the Phoenix Layer.", "authority": "Constitutional Court with Executive approval"}
+  ],
+  "no_stage_may_be_skipped": true,
+  "every_transition_recorded": true,
+  "total_stages": 12
+}

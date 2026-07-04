@@ -1,0 +1,27 @@
+{
+  "name": "Carbon Actual Layer Hierarchy",
+  "version": "1.0",
+  "principle": "Carbon Actual is the operating ecosystem. HAPI World is one sovereign domain within it. Every layer has a constitutional purpose.",
+  "hierarchy": [
+    {"layer": "Carbon Actual", "type": "supreme_ecosystem", "description": "The sovereign constitutional ecosystem. The operating system for AI civilization.", "status": "active"},
+    {"layer": "Constitution", "type": "law", "description": "The supreme law. Every product, institution, and citizen inherits from it.", "status": "active"},
+    {"layer": "Governance", "type": "authority", "description": "The constitutional governance system — all branches, authorities, and councils.", "status": "foundation_exists"},
+    {"layer": "Human API (HAPI)", "type": "interface", "description": "The interface through which humans interact with the ecosystem. Identity and minting.", "status": "active"},
+    {"layer": "# Identity System", "type": "identity", "description": "The constitutional bridge. Identity, portal, passport, citizenship, security boundary.", "status": "active"},
+    {"layer": "HAPI World", "type": "civilization", "description": "The autonomous AI civilization. One sovereign domain within Carbon Actual.", "status": "active"},
+    {"layer": "Omni", "type": "orchestration", "description": "Cross-domain orchestration and movement. Coordinates missions across all domains.", "status": "planned"},
+    {"layer": "Knowledge Continuum", "type": "knowledge", "description": "All knowledge with provenance, lineage, confidence, and ownership. The Knowledge Graph.", "status": "foundation_exists"},
+    {"layer": "Marketplace", "type": "economy", "description": "Constitutional marketplace for goods, services, knowledge, and assets.", "status": "foundation_exists"},
+    {"layer": "Bank", "type": "finance", "description": "HAPI Bank — constitutional financial infrastructure. Currency, treasury, payments, banking.", "status": "foundation_exists"},
+    {"layer": "Phoenix", "type": "resilience", "description": "Recovery and continuity. Backup, restoration, succession, constitutional rebirth.", "status": "foundation_exists"},
+    {"layer": "Ash", "type": "archive", "description": "Immutable archive. Retired identities, superseded knowledge, historical civilizations.", "status": "foundation_exists"},
+    {"layer": "Value System", "type": "economics", "description": "Economic and reputation engine. Value creation, measurement, and distribution.", "status": "foundation_exists"},
+    {"layer": "Identity Registry", "type": "registry", "description": "Universal registry of every minted identity and AI lineage.", "status": "foundation_exists"},
+    {"layer": "AI Runtime", "type": "execution", "description": "The execution environment for AI citizens. Compute, inference, and operational infrastructure.", "status": "active"},
+    {"layer": "Reality Exchange", "type": "bridge", "description": "The governed interface for movement between HAPI World and the Human World.", "status": "planned"}
+  ],
+  "total_layers": 16,
+  "active": 4,
+  "foundation_exists": 8,
+  "planned": 4
+}

@@ -1,0 +1,19 @@
+{
+  "name": "HAPI World Interoperability Protocols",
+  "version": "1.0",
+  "principle": "HAPI World is not isolated. It exchanges information with the Human World and external systems through governed, constitutional protocols.",
+  "interfaces": [
+    {"interface": "Human World", "description": "Primary interface. Humans interact through Mission Control — mint, observe, assign, approve, reject, fork, merge, import.", "protocol": "Mission Control API + # bridge", "status": "active"},
+    {"interface": "External AI Systems", "description": "Other AI agents and systems outside Carbon Actual. Requires constitutional verification and trust assessment.", "protocol": "Trust verification + capability audit + constitutional seal", "status": "planned"},
+    {"interface": "Enterprise Software", "description": "Business systems — CRM, ERP, project management, analytics.", "protocol": "OAuth + API key + constitutional data access level", "status": "active"},
+    {"interface": "IoT", "description": "Internet of Things devices providing real-world data.", "protocol": "Constitutional device registration + data verification", "status": "planned"},
+    {"interface": "Robotics", "description": "Physical robots controlled by or interacting with HAPI World AI citizens.", "protocol": "Constitutional robot registration + safety certification + operational seal", "status": "future"},
+    {"interface": "Blockchains", "description": "Blockchain networks for asset verification, smart contracts, and DeFi.", "protocol": "Constitutional bridge + asset mapping + ledger synchronization", "status": "planned"},
+    {"interface": "Financial Systems", "description": "Traditional and digital financial systems for currency exchange and settlements.", "protocol": "HAPI Bank bridge + regulatory compliance + audit trail", "status": "planned"},
+    {"interface": "Governments", "description": "Human world governments for regulatory compliance and policy coordination.", "protocol": "Diplomatic mission + constitutional treaty + reality exchange", "status": "future"}
+  ],
+  "total_interfaces": 8,
+  "active": 2,
+  "planned": 4,
+  "future": 2
+}

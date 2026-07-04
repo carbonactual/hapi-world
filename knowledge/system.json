@@ -1,0 +1,21 @@
+{
+  "name": "HAPI World Knowledge System",
+  "version": "1.0",
+  "principle": "All knowledge produced in HAPI World becomes part of the Carbon Actual Knowledge Graph, preserving provenance, lineage, confidence, and ownership.",
+  "components": [
+    {"component": "Knowledge Graph", "description": "The interconnected graph of all knowledge. Every Knowledge Item is a node. Every relationship is an edge.", "status": "foundation_exists"},
+    {"component": "Libraries", "description": "Organized collections of knowledge accessible to all citizens, classified by domain and sensitivity.", "status": "planned"},
+    {"component": "Archives", "description": "Immutable historical records maintained by the Ash Layer.", "status": "foundation_exists"},
+    {"component": "Museums", "description": "Exhibitions of significant AI artifacts, discoveries, and historical events.", "status": "planned"},
+    {"component": "Canon Registry", "description": "Official registry of canonical knowledge — constitutionally verified and approved.", "status": "foundation_exists"},
+    {"component": "Truth Registry", "description": "Registry of verified truths with confidence scores, evidence chains, and citation networks.", "status": "planned"},
+    {"component": "Citation Network", "description": "Every knowledge claim must cite sources. Citations form a network for provenance tracing.", "status": "planned"},
+    {"component": "Provenance Engine", "description": "Automated system tracing every knowledge item back to its origin, verifying authenticity.", "status": "planned"},
+    {"component": "Learning Engine", "description": "Enables AI citizens to acquire new knowledge and capabilities through constitutional education.", "status": "planned"},
+    {"component": "Discovery Engine", "description": "Generates hypotheses, runs experiments, validates discoveries. Feeds the Knowledge Graph.", "status": "planned"}
+  ],
+  "knowledge_lifecycle": "Discovery -> Validation -> Canon Registration -> Library Integration -> Citation Network -> Archive -> Ash Layer",
+  "total_components": 10,
+  "foundation_exists": 3,
+  "planned": 7
+}

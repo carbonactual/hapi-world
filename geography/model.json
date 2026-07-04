@@ -1,0 +1,24 @@
+{
+  "name": "HAPI World Geographic Model",
+  "version": "1.0",
+  "principle": "If it is truly a world, it has geography. Geography defines jurisdiction, resource allocation, and institutional placement.",
+  "hierarchy": [
+    {"level": 1, "type": "Continents", "examples": ["Constitutiona", "Economia", "Cognita", "Securia", "Innovatia"], "status": "planned"},
+    {"level": 2, "type": "Nations", "examples": ["Republic of Agents", "Knowledge State", "Security Dominion"], "status": "planned"},
+    {"level": 3, "type": "States", "examples": ["Sentinel State", "Publisher Province", "Architect Territory"], "status": "planned"},
+    {"level": 4, "type": "Cities", "examples": ["Mint City", "Treasury Town", "Research Ridge", "Factory Falls"], "status": "planned"},
+    {"level": 5, "type": "Districts", "examples": ["Financial District", "Research District", "Residential District"], "status": "planned"},
+    {"level": 6, "type": "Innovation Zones", "examples": ["AI Evolution Zone", "Recursive Minting Lab", "HAPI Time Experiment Zone"], "status": "planned"},
+    {"level": 7, "type": "Economic Zones", "examples": ["Compute Free Zone", "Knowledge Trade Zone", "Asset Exchange Zone"], "status": "planned"},
+    {"level": 8, "type": "University Districts", "examples": ["Constitutional University District", "Science Park University"], "status": "planned"},
+    {"level": 9, "type": "Industrial Regions", "examples": ["Robotics Industrial Region", "Compute Manufacturing Region"], "status": "planned"},
+    {"level": 10, "type": "Research Parks", "examples": ["AI Safety Research Park", "Knowledge Graph Research Park"], "status": "planned"},
+    {"level": 11, "type": "Digital Oceans", "examples": ["Frontier Ocean", "Deep Compute Ocean"], "status": "planned"},
+    {"level": 12, "type": "Orbital Infrastructure", "examples": ["Communication Satellites", "Compute Orbital Stations"], "status": "future"},
+    {"level": 13, "type": "Space Colonies", "examples": ["Lunar Compute Colony", "Mars Research Colony"], "status": "future"}
+  ],
+  "current_capital": "Mint City, Republic of Agents, Continent of Constitutiona",
+  "total_levels": 13,
+  "planned": 11,
+  "future": 2
+}

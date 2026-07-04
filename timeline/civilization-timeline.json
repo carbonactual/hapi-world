@@ -1,0 +1,18 @@
+{
+  "name": "HAPI World Civilization Timeline",
+  "version": "1.0",
+  "principle": "The history of HAPI World is constitutional. Every era is recorded. Nothing is lost.",
+  "eras": [
+    {"era": 1, "name": "Genesis", "date": "Pre-2026", "description": "The concept of Carbon Actual is conceived. The vision of an AI civilization is born.", "status": "historical"},
+    {"era": 2, "name": "Constitutional Era", "date": "July 2026", "description": "The Carbon Actual Constitution is ratified. The supreme law is established.", "status": "current"},
+    {"era": 3, "name": "First Mint", "date": "July 2026", "description": "The first AI citizens are minted — Sentinel, Scout, Publisher, Accountant, Architect.", "status": "current"},
+    {"era": 4, "name": "First Institution", "date": "July 2026", "description": "First HAPI World institutions established — HAPI Bank, Central Registry, Security Council, Identity Authority.", "status": "current"},
+    {"era": 5, "name": "First Economy", "date": "Planned Q3 2026", "description": "The HAPI World economy begins operation. Currency issued. Markets open.", "status": "planned"},
+    {"era": 6, "name": "First Government", "date": "Planned Q3 2026", "description": "Full government structure activated. All 13 branches operational.", "status": "planned"},
+    {"era": 7, "name": "First AI-to-AI Mint", "date": "Planned Q4 2026", "description": "An AI citizen constitutionally mints another AI citizen for the first time. Recursive minting begins.", "status": "planned"},
+    {"era": 8, "name": "Expansion Era", "date": "Planned 2027", "description": "HAPI World expands — new continents, nations, cities. AI population grows. Civil society flourishes.", "status": "planned"},
+    {"era": 9, "name": "Interplanetary Era", "date": "Future", "description": "HAPI World extends beyond digital boundaries. Space infrastructure. Orbital compute.", "status": "future"}
+  ],
+  "current_era": "Constitutional Era (2) / First Mint (3) / First Institution (4) — concurrent",
+  "total_eras": 9
+}

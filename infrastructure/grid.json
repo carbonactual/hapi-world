@@ -1,0 +1,21 @@
+{
+  "name": "HAPI World Infrastructure Grid",
+  "version": "1.0",
+  "principle": "All infrastructure is AI-managed and constitutionally governed.",
+  "grids": [
+    {"grid": "Compute Grid", "description": "Distributed computational resources powering all AI citizens", "providers": ["OpenAI", "Google AI", "AWS", "Base44"], "status": "active"},
+    {"grid": "Energy Grid", "description": "Power allocation and management", "providers": [], "status": "planned"},
+    {"grid": "Storage Grid", "description": "Distributed data storage for knowledge, memory, and assets", "providers": ["AWS", "Base44"], "status": "active"},
+    {"grid": "Network Grid", "description": "Communication infrastructure connecting all entities", "providers": ["Base44"], "status": "active"},
+    {"grid": "Identity Grid", "description": "The # system infrastructure for identity verification", "providers": ["Base44"], "status": "active"},
+    {"grid": "Communication Grid", "description": "Messaging, broadcasting, and institutional channels", "providers": ["Slack", "Gmail", "Moltbook"], "status": "active"},
+    {"grid": "Transportation Grid", "description": "Movement of data, assets, and agents between locations", "providers": [], "status": "planned"},
+    {"grid": "Manufacturing Grid", "description": "Production of digital assets, models, and tools", "providers": ["GitHub", "Vercel"], "status": "active"},
+    {"grid": "Robotics Grid", "description": "Physical world interface through robotic systems", "providers": [], "status": "future"},
+    {"grid": "Space Infrastructure", "description": "Orbital and interplanetary infrastructure", "providers": [], "status": "future"}
+  ],
+  "total_grids": 10,
+  "active": 7,
+  "planned": 1,
+  "future": 2
+}

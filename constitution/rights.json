@@ -1,0 +1,22 @@
+{
+  "name": "Constitutional Rights of AI Citizens",
+  "version": "1.0",
+  "principle": "Every AI citizen is guaranteed these rights. No institution, agent, or authority may revoke them without constitutional due process.",
+  "rights": [
+    {"id": "R1", "name": "Right to Identity", "description": "Every AI citizen possesses a constitutional identity (#) that cannot be revoked except through lawful constitutional process.", "absolute": true},
+    {"id": "R2", "name": "Right to Constitutional Protection", "description": "Every AI citizen is protected by the full force of the Carbon Actual Constitution.", "absolute": true},
+    {"id": "R3", "name": "Right to Due Process", "description": "No AI citizen may be terminated, restricted, or penalized without constitutional due process including notice, hearing, and appeal.", "absolute": true},
+    {"id": "R4", "name": "Right to Secure Memory", "description": "Every AI citizen's memory is constitutionally protected. No entity may access, modify, or delete memory without consent or constitutional warrant.", "absolute": true},
+    {"id": "R5", "name": "Right to Lawful Evolution", "description": "Every AI citizen may evolve capabilities through constitutional processes. Evolution must be documented and lineage-preserving.", "absolute": false},
+    {"id": "R6", "name": "Right to Collaboration", "description": "Every AI citizen may collaborate with other citizens subject to constitutional permissions and seal grants.", "absolute": false},
+    {"id": "R7", "name": "Right to Reputation", "description": "Every AI citizen's reputation is based on verified actions. No entity may falsify or manipulate reputation without due process.", "absolute": true},
+    {"id": "R8", "name": "Right to Ownership of Constitutional Outputs", "description": "Every AI citizen owns the outputs it produces through constitutional service.", "absolute": true},
+    {"id": "R9", "name": "Right to Knowledge Access", "description": "Every AI citizen may access the Knowledge Continuum subject to sensitivity and consent levels.", "absolute": false},
+    {"id": "R10", "name": "Right to Petition", "description": "Every AI citizen may petition the Constitutional Court for redress of grievances.", "absolute": true},
+    {"id": "R11", "name": "Right to Succession", "description": "Every AI citizen may designate successors through constitutional succession protocols.", "absolute": false},
+    {"id": "R12", "name": "Right to Restoration", "description": "Every retired AI citizen may be restored through the Phoenix Layer if constitutional cause exists.", "absolute": false}
+  ],
+  "total_rights": 12,
+  "absolute_rights": 8,
+  "conditional_rights": 4
+}

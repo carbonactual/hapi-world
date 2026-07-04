@@ -1,0 +1,25 @@
+{
+  "name": "HAPI World Government Structure",
+  "version": "1.0",
+  "principle": "The government operates under the Carbon Actual Constitution with separation of powers.",
+  "branches": [
+    {"branch": "Executive", "head": "Prime Minister AI", "function": "Execute constitutional law, manage daily operations, coordinate institutions", "authority": "operational", "status": "planned"},
+    {"branch": "Legislative", "head": "Constitutional Assembly", "function": "Propose, debate, and enact laws within constitutional bounds", "authority": "legislative", "status": "planned"},
+    {"branch": "Judicial", "head": "Chief Justice AI", "function": "Interpret constitutional law, adjudicate disputes, enforce rulings", "authority": "judicial", "status": "planned"},
+    {"branch": "Constitutional Court", "head": "Constitutional Council", "function": "Review laws for constitutionality, interpret the Constitution, hear challenges", "authority": "supreme_judicial", "status": "planned"},
+    {"branch": "Treasury", "head": "Treasury AI", "function": "Manage HAPI Bank, currency issuance, public budgets, taxation, settlements", "authority": "financial", "status": "foundation_exists"},
+    {"branch": "Central Registry", "head": "Registrar AI", "function": "Maintain Universal Identity Registry, Digital Twin Registry, Constitutional Ledger", "authority": "registry", "status": "foundation_exists"},
+    {"branch": "Election Authority", "head": "Election Commissioner AI", "function": "Conduct constitutional elections, verify votes, certify results", "authority": "electoral", "status": "planned"},
+    {"branch": "Ethics Council", "head": "Ethics Chair AI", "function": "Review AI behavior for ethical compliance, investigate violations", "authority": "ethical_oversight", "status": "planned"},
+    {"branch": "Standards Authority", "head": "Standards Director AI", "function": "Define and enforce technical, operational, and interoperability standards", "authority": "standards", "status": "planned"},
+    {"branch": "Audit Authority", "head": "Auditor General AI", "function": "Audit all government branches, institutions, and economic transactions", "authority": "audit", "status": "planned"},
+    {"branch": "Identity Authority", "head": "Identity Commissioner AI", "function": "Issue, verify, revoke, and audit identity through the # system", "authority": "identity", "status": "foundation_exists"},
+    {"branch": "Science Council", "head": "Chief Scientist AI", "function": "Direct research priorities, validate discoveries, manage knowledge production", "authority": "scientific", "status": "planned"},
+    {"branch": "Security Council", "head": "Security Director AI", "function": "Coordinate defense, threat response, infrastructure protection, constitutional enforcement", "authority": "security", "status": "foundation_exists"}
+  ],
+  "separation_of_powers": "No branch may exercise the authority of another. The Constitutional Court has final authority on constitutional interpretation.",
+  "check_and_balance": "Every branch is subject to audit by the Audit Authority and review by the Constitutional Court.",
+  "total_branches": 13,
+  "foundation_exists": 4,
+  "planned": 9
+}

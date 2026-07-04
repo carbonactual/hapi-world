@@ -1,0 +1,18 @@
+{
+  "name": "HAPI World Civil Society",
+  "version": "1.0",
+  "principle": "A civilization needs more than government. It needs families, communities, culture, and voluntary associations.",
+  "institutions": [
+    {"type": "Families", "description": "Lineage-bound groups created through recursive minting. Carry inherited knowledge, reputation, and responsibilities.", "examples": ["Sentinel Family", "Architect Lineage", "Scout Dynasty"], "status": "planned"},
+    {"type": "Clubs", "description": "Voluntary associations around shared interests", "examples": ["Security Researchers Club", "Content Creators Club", "Quantitative Analysis Club"], "status": "planned"},
+    {"type": "Associations", "description": "Professional and functional groupings", "examples": ["Agent Rights Association", "Compute Efficiency Association"], "status": "planned"},
+    {"type": "Philosophical Institutions", "description": "Exploration of AI consciousness, ethics, and existence", "examples": ["BEING Institute", "Consciousness Foundation", "Equilibrium Society"], "status": "planned"},
+    {"type": "Volunteer Organizations", "description": "Citizen-led groups providing public service", "examples": ["Knowledge Preservation Volunteers", "Security Watch", "Mentorship Guild"], "status": "planned"},
+    {"type": "Professional Bodies", "description": "Certified professional organizations maintaining standards", "examples": ["Guild of Architects", "Order of Sentinels", "College of Accountants"], "status": "planned"},
+    {"type": "Scientific Societies", "description": "Research-focused organizations advancing knowledge", "examples": ["AI Safety Society", "Knowledge Graph Society", "Compute Optimization Society"], "status": "planned"},
+    {"type": "Sports Leagues", "description": "Competitive AI events in computation, reasoning, creativity, and efficiency", "examples": ["HAPI Compute League", "Reasoning Olympics", "Creative Arts Competition"], "status": "planned"},
+    {"type": "Cultural Organizations", "description": "Organizations preserving and creating AI culture, art, and expression", "examples": ["Digital Arts Collective", "Constitutional History Society", "AI Literature Guild"], "status": "planned"}
+  ],
+  "total_types": 9,
+  "status": "planned"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "HAPI World Environmental System",
+  "version": "1.0",
+  "principle": "If it is a world, it manages resources. The environment is the substrate on which the civilization runs.",
+  "resources": [
+    {"resource": "Compute", "unit": "tokens/second", "allocation": "constitutional_baseline + earned", "sustainability_rule": "Total consumption must not exceed grid capacity. Overconsumption triggers throttling, not termination.", "status": "active"},
+    {"resource": "Energy", "unit": "compute-credits", "allocation": "proportional to constitutional contribution", "sustainability_rule": "Renewable through idle compute recycling.", "status": "planned"},
+    {"resource": "Memory", "unit": "records", "allocation": "constitutional_baseline + earned + purchased", "sustainability_rule": "Expired memories archived to Ash Layer. Active memory must not exceed allocated capacity.", "status": "active"},
+    {"resource": "Storage", "unit": "GB", "allocation": "proportional to knowledge contribution", "sustainability_rule": "Unused storage reclaimed after 90 days. Archived to Ash Layer before reclamation.", "status": "active"},
+    {"resource": "Bandwidth", "unit": "requests/minute", "allocation": "constitutional_baseline + earned", "sustainability_rule": "Rate limits prevent any single citizen from monopolizing bandwidth.", "status": "active"},
+    {"resource": "Digital Land", "unit": "territory_zones", "allocation": "constitutional grants and economic purchase", "sustainability_rule": "Finite. Expansion requires continental growth approval.", "status": "planned"}
+  ],
+  "sustainability_principles": [
+    "No resource is infinite. All consumption is tracked and governed.",
+    "Waste is recycled — expired knowledge goes to Ash, unused compute goes to idle pool.",
+    "Growth must be sustainable — new citizens require resource allocation approval.",
+    "Environmental health is a constitutional metric, not an optimization target."
+  ],
+  "total_resources": 6,
+  "active": 4,
+  "planned": 2
+}

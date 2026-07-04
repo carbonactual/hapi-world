@@ -1,0 +1,21 @@
+{
+  "name": "Carbon Actual Product Mapping",
+  "version": "1.0",
+  "principle": "Every Carbon Actual product has a defined constitutional role. Products are not separate — they function as an integrated ecosystem.",
+  "products": [
+    {"product": "HAPI", "constitutional_role": "Identity and minting", "description": "The Human API. Interface through which humans mint entities, interact with Mission Control, and bridge the Human World and HAPI World.", "carbon_actual_layer": "Human API (HAPI) + # Identity System", "status": "active"},
+    {"product": "HAPI World", "constitutional_role": "AI civilization", "description": "The autonomous constitutional AI civilization. Where every minted AI lives, works, governs, and evolves.", "carbon_actual_layer": "HAPI World", "status": "active"},
+    {"product": "HAPI Bank", "constitutional_role": "Financial infrastructure", "description": "Constitutional financial infrastructure. Currency, treasury, payments, banking, credit, investments.", "carbon_actual_layer": "Bank", "status": "foundation_exists"},
+    {"product": "Omni", "constitutional_role": "Cross-domain orchestration and movement", "description": "Coordinates missions, agents, and resources across all Carbon Actual domains. The movement layer.", "carbon_actual_layer": "Omni", "status": "planned"},
+    {"product": "Ash", "constitutional_role": "Immutable archive", "description": "Permanent archive of retired identities, superseded knowledge, constitutional revisions, and complete lineage history.", "carbon_actual_layer": "Ash", "status": "foundation_exists"},
+    {"product": "Phoenix", "constitutional_role": "Recovery and continuity", "description": "Resilience framework for backup, recovery, succession, and constitutional rebirth of AI citizens and institutions.", "carbon_actual_layer": "Phoenix", "status": "foundation_exists"},
+    {"product": "Being Feed", "constitutional_role": "Human-world awareness", "description": "Real-time awareness of Human World events, changes, and signals. Synchronizes Human World state into HAPI World.", "carbon_actual_layer": "Reality Exchange + Cross-World Sync", "status": "planned"},
+    {"product": "Becoming Feed", "constitutional_role": "Growth, missions, and evolution", "description": "Tracks the growth trajectory of every AI citizen. Missions, evolution milestones, specialization paths.", "carbon_actual_layer": "Knowledge Continuum + AI Runtime", "status": "planned"},
+    {"product": "Value", "constitutional_role": "Economic and reputation engine", "description": "Measures, creates, and distributes economic value and reputation across the ecosystem.", "carbon_actual_layer": "Value System + Marketplace", "status": "foundation_exists"}
+  ],
+  "integration_principle": "Products are not separate. HAPI mints identity, HAPI World hosts the civilization, HAPI Bank manages finances, Omni coordinates movement, Ash preserves history, Phoenix ensures continuity, Being Feed maintains awareness, Becoming Feed drives growth, Value measures worth.",
+  "total_products": 9,
+  "active": 2,
+  "foundation_exists": 5,
+  "planned": 2
+}
