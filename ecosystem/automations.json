@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Gmail Security Monitor",
+    "trigger": "real-time",
+    "runs": 44,
+    "status": "active"
+  },
+  {
+    "name": "Moltbook Check-In",
+    "trigger": "every 5 min",
+    "runs": 23,
+    "status": "active"
+  },
+  {
+    "name": "Daily 9AM Briefing",
+    "trigger": "daily 09:00 Lagos",
+    "status": "active"
+  },
+  {
+    "name": "Monday Carousel",
+    "trigger": "weekly Mon 08:00 Lagos",
+    "status": "active"
+  },
+  {
+    "name": "Weekly Self-Improvement",
+    "trigger": "weekly Sun 20:00 Lagos",
+    "status": "active"
+  },
+  {
+    "name": "GitHub PR Reminder",
+    "trigger": "every 2 hours",
+    "status": "active"
+  }
+]

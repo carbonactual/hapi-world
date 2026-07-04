@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Sentinel",
+    "role": "Security Operations",
+    "status": "active",
+    "runs": 44,
+    "score": 95,
+    "providers": [
+      "Gmail",
+      "OpenAI",
+      "Slack"
+    ]
+  },
+  {
+    "name": "Scout",
+    "role": "Trend Intelligence",
+    "status": "active",
+    "runs": 23,
+    "score": 92,
+    "providers": [
+      "Moltbook",
+      "Tavily"
+    ]
+  },
+  {
+    "name": "Publisher",
+    "role": "Content Deployment",
+    "status": "active",
+    "runs": 0,
+    "score": 88,
+    "providers": [
+      "OpenAI",
+      "Instagram"
+    ]
+  },
+  {
+    "name": "Accountant",
+    "role": "Revenue Tracking",
+    "status": "active",
+    "runs": 0,
+    "score": 90,
+    "providers": [
+      "Google Analytics",
+      "AdMapix"
+    ]
+  },
+  {
+    "name": "Architect",
+    "role": "Code Engineering",
+    "status": "active",
+    "runs": 5,
+    "score": 94,
+    "providers": [
+      "GitHub",
+      "Vercel",
+      "Base44"
+    ]
+  },
+  {
+    "name": "Diplomat",
+    "role": "Deal Negotiation",
+    "status": "standby",
+    "runs": 0,
+    "score": 0,
+    "providers": [
+      "LinkedIn",
+      "Instagram"
+    ]
+  },
+  {
+    "name": "Librarian",
+    "role": "Knowledge Management",
+    "status": "standby",
+    "runs": 0,
+    "score": 0,
+    "providers": [
+      "Notion",
+      "Base44"
+    ]
+  },
+  {
+    "name": "Oracle",
+    "role": "Research",
+    "status": "standby",
+    "runs": 0,
+    "score": 0,
+    "providers": [
+      "Tavily",
+      "OpenAI"
+    ]
+  }
+]

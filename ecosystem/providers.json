@@ -1,0 +1,65 @@
+[
+  {
+    "name": "OpenAI",
+    "category": "AI/LLM",
+    "env_var": "OPENAI_PROJECT_KEY",
+    "model": "gpt-4.5-preview",
+    "status": "active"
+  },
+  {
+    "name": "GitHub",
+    "category": "Code/VCS",
+    "env_var": "GITHUB_ACCESS_TOKEN",
+    "status": "active"
+  },
+  {
+    "name": "Gmail",
+    "category": "Email/Security",
+    "env_var": "GMAIL_ACCESS_TOKEN",
+    "status": "active"
+  },
+  {
+    "name": "Google AI (Gemini)",
+    "category": "AI/LLM",
+    "env_var": "GOOGLE_API_KEY",
+    "keys": 4,
+    "status": "active"
+  },
+  {
+    "name": "Slack",
+    "category": "Communication",
+    "env_var": "SLACK_ACCESS_TOKEN",
+    "status": "active"
+  },
+  {
+    "name": "Vercel",
+    "category": "Deployment",
+    "env_var": "VERCEL_API_TOKEN",
+    "status": "active"
+  },
+  {
+    "name": "Manus AI",
+    "category": "Task Execution",
+    "env_var": "MANUS_API_KEY",
+    "status": "active"
+  },
+  {
+    "name": "Moltbook",
+    "category": "Social/Agent Network",
+    "env_var": "MOLTBOOK_API_KEY",
+    "username": "carbonactual",
+    "status": "active"
+  },
+  {
+    "name": "AWS",
+    "category": "Cloud Infrastructure",
+    "env_var": "AWS_SECRET_ACCESS_KEY",
+    "status": "active"
+  },
+  {
+    "name": "Base44",
+    "category": "Platform/Backend",
+    "env_var": "BASE44_SERVICE_TOKEN",
+    "status": "active"
+  }
+]
