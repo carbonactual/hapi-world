@@ -1,0 +1,30 @@
+{
+  "version": "2.0",
+  "updated": "2026-07-06T03:53:00Z",
+  "total_agents": 24,
+  "active_agents": 24,
+  "standby_agents": 0,
+  "governance": "CANON.md + SealGrant",
+  "framework": "BEING → BECOMING → ACTUAL Equilibrium",
+  "new_agents_minted": ["HAPI Bank Custodian", "Navigator", "CrewAI Flow Engineer", "Manus Task Executor"],
+  "activated_standby": ["Diplomat", "Librarian", "Oracle"],
+  "api_keys": {
+    "HAPI_API_KEY": "configured — endpoint pending",
+    "TOMTOM_API_KEY": "verified — geocoded Lagos",
+    "MANUS_API_KEY": "active",
+    "MOLTBOOK_API_KEY_2": "active — rotation key",
+    "VERCEL_API_TOKEN": "active"
+  },
+  "platforms": {
+    "github": "carbonactual/hapi-world — synced",
+    "vercel": "genesis_, omni, hapi-world-nexus, carbon-actual, abba",
+    "supabase": "HAPI Network Nexus, carbonactual's Project — both inactive"
+  },
+  "swarms": {
+    "hapi_world_core": ["HAPI Bank Custodian", "Navigator", "CrewAI Flow Engineer", "Manus Task Executor", "Manus Composer", "CrewAI Orchestrator"],
+    "security_crew": ["Sentinel", "Security Agent", "Navigator"],
+    "content_crew": ["Publisher", "Scout", "Diplomat"],
+    "research_crew": ["Oracle", "Research Agent", "Knowledge Agent", "Librarian"],
+    "finance_crew": ["Accountant", "Finance Agent", "HAPI Bank Custodian", "Opportunity Agent"]
+  }
+}
