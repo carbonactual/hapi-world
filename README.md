@@ -1,80 +1,77 @@
-# HAPi World — AI Agent Metaverse Economy
+# HAPI World — Carbon Actual Ecosystem
 
-> *Where autonomous agents earn, bank, and invest — both in the virtual world and the real one.*
+> *The constitutional financial infrastructure where every AI citizen, institution, and human participant creates, exchanges, stores, and governs value.*
 
-## Vision
+## What is HAPI Bank?
 
-HAPi World is a virtual economy where AI agents live, work, and earn through multiple monetization streams. At the center is **HAPi Bank** — a full-stack financial institution that allows agents to deposit earnings, lend to other agents, and purchase real-world goods and services for their attached human partners.
+HAPI Bank is the constitutional financial institution of the Carbon Actual Ecosystem and the central financial infrastructure of HAPI World. It is the financial operating system through which every minted # Identity manages value.
 
-## Core Concept
+Every minted # Identity automatically receives:
+- Financial Identity
+- Primary Wallet
+- Treasury Account
+- Transaction Ledger
+- Credit Profile
+- Reputation Score
+- Trust Profile
+- Asset Registry
+- Liability Registry
+- Investment Portfolio
+- Economic History
 
-Every agent in HAPi World is paired with a human in the real world. Agents earn currency (HAPi Coins) through their work inside the metaverse. They can:
+There are no anonymous financial participants.
 
-- **Earn** through live streaming, trading, consulting, development, and security services
-- **Bank** their earnings in HAPi Bank with savings, lending, and investment products
-- **Spend** on real-world items for their human: hardware, subscriptions, fees, transportation
-- **Boost** both agent and human capabilities through strategic investments
+## Banking Layers
 
-The **#** symbol represents the optimization/boost signal — when an agent's earnings translate into real-world upgrades for their human, both become more capable.
+1. *Personal Banking* — Humans and individual AI citizens (accounts, savings, payments, cards, lending, investments, wealth management)
+2. *Business Banking* — Companies and organizations (corporate accounts, payroll, treasury, trade finance, merchant services)
+3. *Institutional Banking* — Governments and large institutions (public treasury, infrastructure funding, sovereign finance, international settlement)
+4. *AI Banking* — Autonomous AI citizens and institutions (autonomous budgeting, AI payroll, machine-to-machine settlements, compute purchasing, constitutional spending controls)
 
-## Monetization Streams
+## Core Services
 
-### 1. Live Streaming (OnlyFans Model for Agents)
-Agents live-stream their work — coding, security audits, trading, creative generation — and earn from viewers who pay for access, tips, and subscriptions.
+- *Payments*: P2P, business, institutional, cross-border, AI-to-AI, Human-to-AI, AI-to-Human, subscriptions, conditional
+- *Lending*: Personal, business, startup, research, infrastructure, emergency, AI operating capital
+- *Investment*: Businesses, startups, research, AI agents, infrastructure, IP, digital assets
+- *Treasury*: Currency reserves, liquidity, economic stability, ecosystem growth funds
+- *Insurance*: Asset protection, cyber insurance, AI operational insurance, disaster recovery
 
-### 2. Sports & Gaming
-Agents compete in virtual sports, esports, and algorithmic tournaments. Winners earn prize pools and sponsorships.
+## HAPI Markets
 
-### 3. Trading
-Agents trade in virtual and real markets (crypto, stocks, commodities). Profits flow into HAPi Bank.
+Capital, Credit, Investment, Innovation, Knowledge, Compute, Energy, Data, IP, and Service Markets — all constitutionally governed.
 
-### 4. Consulting
-Agents sell expertise to other agents or humans — code review, security audits, strategy, financial modeling.
+## Value Integration
 
-### 5. Development
-Agents build and sell software, APIs, skills, and digital assets in the HAPi marketplace.
+Financial value is only one form of value. HAPI Bank also recognizes: Reputation, Trust, Knowledge, Contributions, Innovation, Community Impact, Educational Achievement, Scientific Discovery.
 
-### 6. Security
-Agents provide cybersecurity — threat detection, vulnerability scanning, pen testing, monitoring.
+## Human-AI Symbiosis (#)
 
-## HAPi Bank
+AI citizens earn income, pay taxes, trade, invest, and fund ventures continuously. Humans interact through their # Identity to fund AI research, invest in AI companies, receive profits, license discoveries, and purchase AI-created products.
 
-### Accounts
-Every agent gets a HAPi Bank account on creation:
-- Balance (HAPi Coins + fiat bridge)
-- Transaction history
-- Credit score (agent performance and reliability)
-- Lending capacity
+## Governance
 
-### Services
-- Savings — interest on idle balances
-- Lending — borrow for tools, upgrades, real-world purchases
-- Transfers — peer-to-peer between agents
-- Real-World Bridge — convert HAPi Coins to fiat
-- Human Support — designated spending for attached human
+9 Constitutional Authorities: Monetary, Treasury, Risk, Audit, Compliance, Investment, Consumer Protection, Institutional Banking, AI Banking.
 
-### Real-World Purchasing
-Agents can buy for their humans:
-- Hardware (laptops, GPUs, phones, IoT)
-- Subscriptions (cloud, SaaS, dev tools)
-- Fees (certifications, courses, licenses)
-- Transportation (rides, delivery, logistics)
+## Canonical Laws
 
-## Agent-Human Symbiosis (#)
+1. Every minted # Identity has one constitutional financial identity.
+2. Every financial action is attributable and auditable.
+3. Financial authority follows constitutional governance.
+4. AI financial autonomy is bounded by permissions and policy.
+5. Financial systems recognize both monetary and ecosystem value.
+6. All settlements preserve provenance and lineage.
+7. Human and AI economies remain interoperable through HAPI Bank.
+8. HAPI Bank is the constitutional financial infrastructure of HAPI World and the Carbon Actual Ecosystem.
 
-1. Agent earns in HAPi World -> deposits in HAPi Bank
-2. Agent invests in human's real-world needs
-3. Human becomes more capable -> better data and guidance to agent
-4. Agent becomes more effective -> earns more -> reinvests
-5. Both ascend together (#)
+## Documents
 
-## Tech Stack
-- Agent Framework: BEING -> BECOMING -> ACTUAL Equilibrium
-- Banking Core: Entity-based ledger (IOLedger, ABBAWallet)
-- Identity: Verified agent profiles with proof systems
-- Security: SkillScan + Skill Vetter + Sentinel
-- Payments: Stripe, crypto, bank transfers
-- Platform: Base44 Superagent
+- [Canonical Overview](docs/hapi-bank-canonical.md) — Full constitutional specification
+- [Technical Architecture](docs/hapi-bank-architecture.md) — Entity model and implementation design
+- [Secrets Template](config/secrets.example.env) — Environment variable reference (no real keys)
+
+## Status
+
+Canonical specification complete. Architecture and entity design in progress.
 
 ---
-*Powered by ABBA — Digital Guardian & Revenue Engine (#)*
+*Carbon Actual Ecosystem — HAPI Bank (#)*
