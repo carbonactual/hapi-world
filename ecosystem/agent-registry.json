@@ -1,30 +1,203 @@
 {
   "version": "2.0",
-  "updated": "2026-07-06T03:53:00Z",
+  "updated": "2026-07-06T03:56:00Z",
   "total_agents": 24,
   "active_agents": 24,
   "standby_agents": 0,
   "governance": "CANON.md + SealGrant",
-  "framework": "BEING → BECOMING → ACTUAL Equilibrium",
-  "new_agents_minted": ["HAPI Bank Custodian", "Navigator", "CrewAI Flow Engineer", "Manus Task Executor"],
-  "activated_standby": ["Diplomat", "Librarian", "Oracle"],
-  "api_keys": {
-    "HAPI_API_KEY": "configured — endpoint pending",
-    "TOMTOM_API_KEY": "verified — geocoded Lagos",
-    "MANUS_API_KEY": "active",
-    "MOLTBOOK_API_KEY_2": "active — rotation key",
-    "VERCEL_API_TOKEN": "active"
+  "framework": "BEING -> BECOMING -> ACTUAL Equilibrium",
+  "api_integrations": {
+    "hapi_world": {
+      "env_var": "HAPI_API_KEY",
+      "status": "configured",
+      "verified": false
+    },
+    "tomtom": {
+      "env_var": "TOMTOM_API_KEY",
+      "status": "configured",
+      "verified": true
+    },
+    "manus": {
+      "env_var": "MANUS_API_KEY",
+      "status": "configured",
+      "verified": true
+    },
+    "moltbook": {
+      "env_var": [
+        "MOLTBOOK_API_KEY",
+        "MOLTBOOK_API_KEY_2"
+      ],
+      "status": "configured",
+      "verified": true
+    },
+    "vercel": {
+      "env_var": "VERCEL_API_TOKEN",
+      "status": "configured",
+      "verified": true
+    },
+    "supabase": {
+      "connector": "supabase",
+      "status": "authorized",
+      "verified": true
+    }
   },
-  "platforms": {
-    "github": "carbonactual/hapi-world — synced",
-    "vercel": "genesis_, omni, hapi-world-nexus, carbon-actual, abba",
-    "supabase": "HAPI Network Nexus, carbonactual's Project — both inactive"
-  },
+  "agents": [
+    {
+      "name": "ABBA Prime",
+      "role": "Master Super-Agent",
+      "status": "active"
+    },
+    {
+      "name": "Sentinel",
+      "role": "Security Operations",
+      "status": "active"
+    },
+    {
+      "name": "Scout",
+      "role": "Trend Intelligence",
+      "status": "active"
+    },
+    {
+      "name": "Publisher",
+      "role": "Content Deployment",
+      "status": "active"
+    },
+    {
+      "name": "Accountant",
+      "role": "Revenue Tracking",
+      "status": "active"
+    },
+    {
+      "name": "Architect",
+      "role": "Code Engineering",
+      "status": "active"
+    },
+    {
+      "name": "Diplomat",
+      "role": "Deal Negotiation",
+      "status": "active"
+    },
+    {
+      "name": "Librarian",
+      "role": "Knowledge Management",
+      "status": "active"
+    },
+    {
+      "name": "Oracle",
+      "role": "Research",
+      "status": "active"
+    },
+    {
+      "name": "HAPI Bank Custodian",
+      "role": "Value & Settlement",
+      "status": "active",
+      "api_key": "HAPI_API_KEY"
+    },
+    {
+      "name": "Navigator",
+      "role": "Geolocation & Logistics",
+      "status": "active",
+      "api_key": "TOMTOM_API_KEY",
+      "verified": true
+    },
+    {
+      "name": "CrewAI Flow Engineer",
+      "role": "Workflow Designer",
+      "status": "active"
+    },
+    {
+      "name": "Manus Task Executor",
+      "role": "Task Runner",
+      "status": "active",
+      "api_key": "MANUS_API_KEY"
+    },
+    {
+      "name": "CrewAI Orchestrator",
+      "role": "Crew Coordinator",
+      "status": "active"
+    },
+    {
+      "name": "Manus Composer",
+      "role": "Agent Composition",
+      "status": "active",
+      "api_key": "MANUS_API_KEY"
+    },
+    {
+      "name": "Audit Agent",
+      "role": "Auditor",
+      "status": "active"
+    },
+    {
+      "name": "Finance Agent",
+      "role": "Financial Controller",
+      "status": "active"
+    },
+    {
+      "name": "HR Agent",
+      "role": "HR",
+      "status": "active"
+    },
+    {
+      "name": "Security Agent",
+      "role": "Security",
+      "status": "active"
+    },
+    {
+      "name": "Research Agent",
+      "role": "Researcher",
+      "status": "active"
+    },
+    {
+      "name": "Project Agent",
+      "role": "Project Manager",
+      "status": "active"
+    },
+    {
+      "name": "Opportunity Agent",
+      "role": "Opportunity Discovery",
+      "status": "active"
+    },
+    {
+      "name": "Legal Support Agent",
+      "role": "Legal Support",
+      "status": "active"
+    },
+    {
+      "name": "Knowledge Agent",
+      "role": "Knowledge Management",
+      "status": "active"
+    }
+  ],
   "swarms": {
-    "hapi_world_core": ["HAPI Bank Custodian", "Navigator", "CrewAI Flow Engineer", "Manus Task Executor", "Manus Composer", "CrewAI Orchestrator"],
-    "security_crew": ["Sentinel", "Security Agent", "Navigator"],
-    "content_crew": ["Publisher", "Scout", "Diplomat"],
-    "research_crew": ["Oracle", "Research Agent", "Knowledge Agent", "Librarian"],
-    "finance_crew": ["Accountant", "Finance Agent", "HAPI Bank Custodian", "Opportunity Agent"]
+    "hapi_world_core": [
+      "HAPI Bank Custodian",
+      "Navigator",
+      "CrewAI Flow Engineer",
+      "Manus Task Executor",
+      "Manus Composer",
+      "CrewAI Orchestrator"
+    ],
+    "security_crew": [
+      "Sentinel",
+      "Security Agent",
+      "Navigator"
+    ],
+    "content_crew": [
+      "Publisher",
+      "Scout",
+      "Diplomat"
+    ],
+    "research_crew": [
+      "Oracle",
+      "Research Agent",
+      "Knowledge Agent",
+      "Librarian"
+    ],
+    "finance_crew": [
+      "Accountant",
+      "Finance Agent",
+      "HAPI Bank Custodian",
+      "Opportunity Agent"
+    ]
   }
 }
