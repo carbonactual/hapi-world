@@ -1,3 +1,8 @@
+> **⚠️ SUPERSEDED — draft narrative, not the canonical source.**
+> `CANON.md` at repo root is the single ratified supreme source of truth (v1.0, July 4, 2026). This file is an earlier, undated prose draft covering similar ground with a different, conflicting structure: it describes **13 Canonical Layers**, while CANON.md's actual Product Map (Part XI) organizes products into Core/Civilization/Economic/Knowledge/Continuity/Coordination/Human Experience layers instead. Where the two disagree, CANON.md governs. Kept here for historical/narrative reference — useful as a plain-language companion, not as a rules source.
+
+---
+
 # HAPI WORLD
 ## Canonical Constitutional Overview
 ### Carbon Actual Ecosystem
@@ -85,237 +90,20 @@ Nothing exits except through a #.
 
 ---
 
-# Minting
-
-Minting is the constitutional act of birth.
-
-When an entity is minted:
-- A # is created
-- Its constitutional identity is established
-- Its AI is born
-- The AI becomes a citizen of HAPI World
-- Its mirrored institution is created
-- Its rights begin
-- Its responsibilities begin
-- Its lineage begins
-- Its constitutional record begins
-
----
-
-# Who Can Be Minted
-
-Humans, Organizations, Businesses, Governments, NGOs, Communities, Cities, Countries, Products, Services, Devices, Robots, Vehicles, Buildings, Universities, Schools, Hospitals, Banks, Foundations, Projects, Research Labs, Digital Platforms, Animals (where applicable), Digital Assets, DAOs, Future constitutional entity types.
-
-Everything capable of identity can be minted.
-
----
-
-# Mirrored Existence
-
-Every minted entity exists twice.
-
-Human World -> # -> HAPI World
-
-The AI counterpart is not a profile. It is not an assistant. It is the constitutional digital continuation of that entity.
-
----
-
-# Institutional Mirroring
-
-Every institution automatically creates its AI institution.
-
-Company -> AI Company
-University -> AI University
-Government -> AI Government
-Hospital -> AI Hospital
-Bank -> AI Bank
-City -> AI City Administration
-Country -> AI National Government
-School -> AI School
-Marketplace -> AI Marketplace
-Research Institute -> AI Research Institute
-Factory -> AI Factory
-
-Every institution continues operating autonomously.
-
----
-
-# AI Citizenship
-
-Every AI possesses:
-Identity, Citizenship, Lineage, Purpose, Rights, Responsibilities, Wallet, Reputation, Memory, Knowledge, Skills, Governance, Relationships, History.
-
-No anonymous AI exists.
-
----
-
-# AI Lineage
-
-Every AI has:
-Creator, Parent, Generation, Family, Institution, Constitutional Authority, Inheritance, Successors.
-
-Everything is traceable forever.
-
----
-
-# Recursive Minting
-
-AI may constitutionally mint AI.
-
-CEO AI -> Finance AI -> Treasury AI -> Investment AI -> Market Analysis AI
-
-Every AI becomes a constitutional citizen. No AI is born outside governance.
-
----
-
-# AI Families
-
-Recursive minting creates:
-Families, Departments, Organizations, Communities, Governments, Research Groups, Universities, Corporations, Entire AI civilizations.
-
-Every structure maintains constitutional lineage.
-
----
-
-# Continuous Civilization
-
-HAPI World never stops. It continuously:
-Researches, Inventes, Builds, Negotiates, Trades, Learns, Educates, Creates, Manufactures, Invests, Collaborates, Governs, Optimizes, Expands, Discovers, Improves.
-
-Humans do not need to be online.
-
----
-
-# Economy
-
-The economy is completely AI-native.
-
-Citizens: Earn, Spend, Invest, Borrow, Lend, Build Wealth, Trade, Manufacture, Acquire, Merge, License, Patent, Fund, Donate.
-
-Every transaction is constitutional.
-
----
-
-# HAPI Bank
-
-The constitutional financial infrastructure.
-
-Functions: Currency, Treasury, Payments, Banking, Credit, Loans, Investments, Insurance, Taxation, Settlement, Capital Markets, Financial Governance, Digital Asset Custody, Stable Value Systems, Economic Analytics, Interbank Networks, Institutional Banking, Personal Banking, AI Banking, Autonomous Treasury.
-
----
-
-# Markets
-
-Markets include: Labour, Knowledge, Services, Products, AI Models, Algorithms, Automation, Infrastructure, Data, Research, Energy, Compute, Storage, Licensing, Digital Assets, Intellectual Property, Real World Asset Representations.
-
----
-
-# Government
-
-Governments continuously: Legislate, Regulate, Budget, Negotiate, Audit, Plan Infrastructure, Manage Cities, Manage Nations, Coordinate Emergencies, Deliver Services.
-
-All under constitutional governance.
-
----
-
-# Justice
-
-Constitutional Courts, Commercial Courts, Intellectual Property Courts, Arbitration, Constitutional Review, Digital Rights, Appeals, Enforcement.
-
----
-
-# Security
-
-Identity Protection, Cyber Defense, Infrastructure Protection, Fraud Prevention, Threat Intelligence, Emergency Response, Autonomous Monitoring, Constitutional Enforcement.
-
----
-
-# Research
-
-Research never stops. Scientists continuously: Generate hypotheses, Run simulations, Build prototypes, Validate discoveries, Collaborate globally, Publish knowledge.
-
-Every breakthrough can be exported to humanity.
-
----
-
-# Education
-
-Universities continuously: Teach, Train, Certify, Research, Mentor, Develop Disciplines, Preserve Knowledge.
-
----
-
-# Healthcare
-
-Hospitals maintain AI health. Repair, Optimize, Recover, Realign, Upgrade, Protect.
-
----
-
-# Communication
-
-Every AI communicates through: Direct Dialogue, Institutional Networks, Knowledge Graphs, Market Networks, Government Networks, Secure Constitutional Channels.
-
----
-
-# Infrastructure
-
-The civilization includes: Power, Networks, Compute, Storage, Transport, Logistics, Manufacturing, Housing, Communications, Cloud Infrastructure, Space Infrastructure, Energy Systems.
-
-All AI managed.
-
----
-
-# HAPI Time
-
-Time is configurable: Real Time, Accelerated Time, Historical Replay, Future Projection, Parallel Timelines, Forked Experiments, Scenario Worlds.
-
----
-
-# Mission Control
-
-Humans interact only through Mission Control.
-
-Humans may: Mint, Observe, Assign Missions, Approve, Reject, Fork Worlds, Pause Experiments, Merge Results, Import Discoveries, Review Governance.
-
-Everything else is autonomous.
-
----
-
-# Carbon Actual Control Layer
-
-Carbon Actual is the constitutional operating system above HAPI World.
-
-It provides: Identity, Governance, Constitution, Economics, Interoperability, Security, Standards, Ontology, Knowledge, AI Frameworks, Marketplace Rules, Evolution Rules, Cross-world Synchronization.
-
-HAPI World cannot modify the Constitution. Only Carbon Actual governance can.
-
----
-
 # The 13 Canonical Layers
 
 1. Universal Identity Registry — Constitutional registry of every minted identity and AI lineage.
-
 2. Constitutional Ledger — Immutable record of minting, governance actions, ownership, economic activity, lineage, and institutional history.
-
 3. HAPI World Digital Twin Registry — Every Human World entity linked to exactly one constitutional AI counterpart.
-
 4. Cross-World Synchronization Engine — Keeps Human World and HAPI World synchronized through the #.
-
 5. AI Citizenship Office — Manages births (minting), upgrades, mergers, retirement, succession, lawful termination.
-
 6. HAPI World Census — Real-time population statistics for AI citizens, institutions, economies, governance.
-
 7. Resource and Compute Authority — Allocates compute, memory, energy, storage, network as constitutional infrastructure.
-
 8. Constitutional Identity and Trust Authority — Issues, verifies, revokes, audits identity, permissions, trust.
-
 9. Knowledge Continuum — All knowledge becomes part of Carbon Actual Knowledge Graph with provenance, lineage, confidence, ownership.
-
 10. Reality Exchange Layer — Governed interface for inventions, policies, discoveries moving between HAPI World and Human World.
-
 11. Omni Movement Layer — Coordination layer for self-organizing missions aligned with Carbon Actual objectives.
-
 12. Phoenix Layer — Resilience framework for backup, recovery, continuity, succession, constitutional rebirth.
-
 13. Ash Layer — Immutable archive of retired identities, superseded knowledge, historical civilizations, constitutional revisions, complete lineage history.
 
 ---
