@@ -1,3 +1,8 @@
+> **⚠️ SUPERSEDED — not the canonical source.**
+> `CANON.md` at repo root is the single supreme source of truth (ratified July 4, 2026, 45 sections, 20 parts). This file is a compressed article-list summary of the same material — Articles III–XVII here map to Parts II–XVI in CANON.md, in far less detail. Kept for historical reference only. Do not treat this as authoritative; if it conflicts with CANON.md, CANON.md wins.
+
+---
+
 # THE CARBON ACTUAL CONSTITUTION
 
 ## Canonical Foundation — Version 1.0
