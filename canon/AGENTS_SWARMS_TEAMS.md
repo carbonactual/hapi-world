@@ -20,6 +20,16 @@ This is not abstract — it's the same algorithm already fully specified in `kno
 6. Assembled group executes; outcomes logged to Pulse Ledger (`canon/LEDGERS.md`)
 7. Dynamic reselection: if error rate or latency exceeds threshold mid-task, the group is reformed — this is the one part of the original design that's genuinely sophisticated and worth preserving as-is
 
+## Coordination algorithms (concrete techniques, not just theory)
+For swarm-side coordination specifically (once gap #1/#2 in `canon/OMNI_BROWSER.md` are implemented), these are the established, real algorithms to actually use rather than reinvent:
+
+- **Ant Colony Optimization (ACO)**: agents leave a "trail" (a Pulse Ledger entry) when a path/approach succeeds; future agents weight their choices toward high-trail paths. Good fit for repeated tasks where some approaches consistently outperform others (e.g., which connector to try first for a given intent type).
+- **Particle Swarm Optimization (PSO)**: agents adjust behavior based on their own best result and the swarm's best result so far. Good fit for parameter tuning (e.g., tuning the capability/latency/cost/privacy weights in the scoring formula itself, over time, based on which weightings produced the best outcomes).
+- **Stigmergy via the Pulse Ledger**: this is already the natural mechanism — agents don't need direct agent-to-agent messaging for swarm coordination; they read and write to the shared Ledger, and coordination emerges from that shared state. No new messaging infrastructure needed beyond what `canon/LEDGERS.md` already specifies.
+
+## Team handoff protocol
+For teams specifically (not swarms), coordination needs explicit structure since roles are diverse, not redundant. The OpenAI Swarm framework's "handoff" pattern is the right model: each agent in a team can explicitly hand off the task to a named other agent when it reaches the edge of its role, with the handoff itself logged as a Pulse Ledger event (traceable: which agent passed to which, why, and what state was transferred).
+
 ## What makes this real vs. the earlier "1 million+ swarms" claim
 The earlier extended conversation this is partly drawn from claimed "over 1 million+ integrations, AIs, swarms & teams... actively running" with zero verifiable instance. This document does not repeat that claim. Formation happens **on demand**, scored against **actual** registered capabilities — there is no ambient population of a million agents; there's a formation algorithm that creates exactly as many agents as a given task's scoring calls for.
 
