@@ -29,6 +29,22 @@
 - **Supabase CLI** — free, official, for local dev/migrations
 - **Vercel CLI** — free, official
 
+## Concrete package reference (real, installable, not hypothetical)
+For whoever actually writes code against this spec — the specific packages, not just category names:
+
+| Need | Package | Install |
+|---|---|---|
+| GitHub API (Node) | Octokit.js | `npm install octokit` |
+| GitHub CLI | `gh` | official installer, not npm |
+| Supabase client (JS) | supabase-js | `npm install @supabase/supabase-js` |
+| Supabase local dev/migrations | Supabase CLI | `npm install supabase --save-dev` |
+| Vercel AI SDK (agents, streaming, tool calling, MCP support) | `ai` | `npm install ai` |
+| MCP server/client | `@modelcontextprotocol/sdk` | `npm install @modelcontextprotocol/sdk` — already in use in `omni/api/mcp.js`, proven working this session |
+| OpenRouter (TS) | `@openrouter/sdk` | `npm install @openrouter/sdk` |
+| OpenRouter (Python) | `openrouter` | `pip install openrouter` |
+
+This list replaces vague "we integrated the SDK" claims with the actual command someone would run. If a package name above turns out to be wrong or renamed by the time someone builds against this, that's a 30-second fix — verify before use, don't take it on faith either.
+
 ## What to explicitly avoid
 - Any integration requiring a credential to be typed into chat or committed to a file (see the CrewAI token incident earlier this session — credentials belong in Vercel env vars or the platform's own connection settings, never in a conversation or a commit)
 - Speculative/unverifiable "integrations" (quantum cloud services beyond documented AWS Braket/Azure Quantum access, claims about platforms with no confirmed API)
