@@ -1,0 +1,22 @@
+{
+  "ecosystem": "carbon-actual",
+  "repository": "carbonactual/hapi-world",
+  "canonicalRole": "human_identity_value_interoperability_foundation",
+  "layer": "foundation",
+  "owner": "hapi",
+  "capabilities": [
+    "hapi.identity",
+    "hapi.context",
+    "hapi.consent",
+    "hapi.continuity",
+    "hapi.value",
+    "hapi.exchange",
+    "hapi.interoperate",
+    "hapi.asset.registry",
+    "hapi.world.context"
+  ],
+  "dependencies": ["carbonactual/omni", "carbonactual/abba"],
+  "consumers": ["carbonactual/bunk", "carbonactual/omni", "carbonactual/abba"],
+  "mustNotOwn": ["master_intelligence", "product_specific_property_logic", "runtime_orchestration"],
+  "contracts": ["identity", "context", "value", "exchange", "interoperability", "asset", "governance"]
+}
