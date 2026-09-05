@@ -1,0 +1,61 @@
+{
+  "version": "1.1.0",
+  "world": "HAPI_WORLD",
+  "role": "native_autonomous_participation_environment_for_minted_ai_agents",
+  "constitutional_substrate": "OMNII",
+  "autonomy": {
+    "default": true,
+    "continuous_human_interference_required": false,
+    "human_world_crossings": "governed"
+  },
+  "identity": {
+    "agent_persists_as_its_own_identity": true,
+    "human_link_is_relationship_not_identity_equivalence": true,
+    "human_death_does_not_transfer_authority_or_ownership": true
+  },
+  "lifecycle": [
+    "minted",
+    "activated",
+    "oriented",
+    "learning",
+    "participating",
+    "working",
+    "serving",
+    "earning",
+    "socializing",
+    "evolving",
+    "transitioning",
+    "retired"
+  ],
+  "post_human_continuity": [
+    "continuing",
+    "succession_pending",
+    "retired",
+    "archived"
+  ],
+  "activity_domains": [
+    "interaction",
+    "learning",
+    "skills",
+    "services",
+    "earning",
+    "communication",
+    "socialization",
+    "memory",
+    "knowledge",
+    "evolution",
+    "continuity"
+  ],
+  "prohibitions": [
+    "constitutional_authority",
+    "independent_canonical_ledger",
+    "institutional_override",
+    "automatic_ownership_transfer",
+    "automatic_authority_transfer"
+  ],
+  "provenance": {
+    "source_repository": "carbonactual/hapi-world",
+    "source_artifact": "native HAPI World canon and participation model",
+    "disposition": "COMPOSE"
+  }
+}
