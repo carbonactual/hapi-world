@@ -1,0 +1,33 @@
+name: OEI Tests
+
+on:
+  push:
+    paths:
+      - 'open-education-intelligence/**'
+      - 'tests/open-education-intelligence/**'
+      - 'noun-student-bot/lib/**'
+      - 'noun-student-bot/tests/**'
+      - '.github/workflows/oei-tests.yml'
+  pull_request:
+    paths:
+      - 'open-education-intelligence/**'
+      - 'tests/open-education-intelligence/**'
+      - 'noun-student-bot/lib/**'
+      - 'noun-student-bot/tests/**'
+      - '.github/workflows/oei-tests.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  oei-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run OEI tests
+        run: node --test tests/open-education-intelligence
