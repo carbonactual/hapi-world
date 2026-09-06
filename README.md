@@ -4,56 +4,68 @@
 
 ## Architecture
 
-The Carbon Actual Ecosystem consists of five constitutional layers:
+The Carbon Actual Ecosystem consists of constitutional infrastructure for identity, value, exchange, interoperability and governance.
 
-1. *Constitution* — Governance, rules, and canonical law
-2. *# Identity System* — Universal identity for every participant
-3. *HAPI Bank* — The financial and value operating system
-4. *Universal Exchange Protocol (UXP)* — How value, assets, and agency move
-5. *Universal Interoperability Layer (UIL)* — How everything communicates and collaborates
+## Open Education Intelligence (OEI)
 
-## HAPI Bank — Three Constitutional Pillars
+**InstituteGPT → Education System → Open Education Intelligence → Open Student Environment → Institutional Environments**
 
-*Pillar I — Banking Infrastructure*: Accounts, payments, lending, treasury, investments. Traditional banking rebuilt for a dual human-AI economy.
+OEI is the universal education intelligence foundation. The learner is the primary entity; institutions are connected environments and adapters rather than the root identity.
 
-*Pillar II — Value Infrastructure*: Recognition, measurement, custody, and conversion of every form of value. 32+ trapped digital value types become interoperable.
+OEI supports open, distance, online, blended, flexible and lifelong learning across:
+
+- learner intelligence and goals
+- institutions, programmes and curricula
+- knowledge, OER, media, provenance and licensing
+- learning pathways and prerequisites
+- teaching, assessment, practice and academic integrity
+- research and literature discovery
+- learner support, accessibility and inclusion
+- credentials, qualifications, skills and lifelong learning
+- employability and opportunity discovery
+- education services and consent-based marketplace activity
+- events, clubs, sports, community and governance information
+- institutional workflows through verified adapters
+
+The universal core is institution-neutral. **NOUN is a specialization through the NOUN adapter**, allowing the existing NOUN Student Bot to use the same learner-first foundation while preserving NOUN-specific rules, services and authority boundaries.
+
+### Integrity and authority boundaries
+
+OEI can explain, recommend, organize, match, notify and support learning. It does not complete graded work, impersonate learners, act as an exam proxy, fabricate research evidence, bypass institutional eligibility, or autonomously execute consequential institutional or financial actions.
+
+Open access is not treated as equivalent to open licensing. Resource provenance, freshness, verification, accessibility and reuse rights remain explicit.
+
+### Current implementation
+
+Implemented modules include the OEI domain contract, learner intelligence, education graph, knowledge/OER intelligence, learning pathways, assessment integrity, research intelligence, inclusive support, credentials/skills, opportunity matching, education services, community/student life, institutional adapters, Open Student Environment orchestration and a NOUN adapter.
+
+A Supabase persistence schema and end-to-end validation suite are also defined. The persistence migration and runtime test execution remain explicit production-gate steps; they are not claimed as completed merely because the source files exist.
+
+## Existing Carbon Actual Foundations
+
+### HAPI Bank
+
+*Pillar I — Banking Infrastructure*: Accounts, payments, lending, treasury, investments.
+
+*Pillar II — Value Infrastructure*: Recognition, measurement, custody, and conversion of value.
 
 *Pillar III — Economic Intelligence Infrastructure*: AI-driven optimization of capital, credit, incentives, resource allocation, and cross-world economic flows.
 
-## Universal Exchange Protocol (UXP)
+### Universal Exchange Protocol (UXP)
 
-One constitutional protocol for all exchange across all worlds.
+One constitutional protocol for exchange across worlds.
 
-8 Layers: Identity, Value, Asset, Exchange, Compliance, Intelligence, Security, Governance.
-12 Exchange Types: Value, Asset, Identity, Agency, Service, Knowledge, Compute, Data, Cross-World, Protocol, Composite, Future.
-10-Phase Lifecycle: Origination through Audit and Intelligence.
+### Universal Interoperability Layer (UIL)
 
-## Universal Interoperability Layer (UIL)
-
-Constitutional interoperability infrastructure. Eliminates technological silos. Enables every identity, AI, agent, institution, protocol, application, blockchain, ledger, network, cloud, marketplace, device, robot, service, model, API, and future technology to communicate through one standard.
-
-13 Translation Types: Protocol, Identity, Data, Asset, Value, Permission, Governance, Policy, Semantic, Knowledge, AI, Language, Compliance.
-
-8 Core Principles: Everything can connect. Everything has identity. Everything has provenance. Everything has permissions. Everything is auditable. Everything is explainable. Everything is governed. Everything is interoperable.
-
-## Universal Asset Registry
-
-44+ recognized asset classes. Every asset may be owned, verified, tokenized, fractionalized, licensed, leased, sold, purchased, borrowed, lent, inherited, gifted, escrowed, insured, audited, versioned, recovered, and retired.
+Interoperability infrastructure for identities, AI, agents, institutions, protocols, applications, ledgers, networks, marketplaces, devices, services, models and APIs.
 
 ## Documents
 
-1. Universal Interoperability Layer — docs/hapi-universal-interoperability-layer.md
-2. Universal Exchange Protocol — docs/hapi-universal-exchange-protocol.md
-3. Universal Protocol and Asset Infrastructure — docs/hapi-universal-protocol-asset-infrastructure.md
-4. Three Constitutional Pillars — docs/hapi-bank-three-pillars.md
-5. Canonical Overview — docs/hapi-bank-canonical.md
-6. Value Conversion Engine — docs/hapi-value-conversion-engine.md
-7. Technical Architecture — docs/hapi-bank-architecture.md
-8. Secrets Template — config/secrets.example.env (no real keys)
-
-## Status
-
-Canonical specification complete. Five constitutional layers defined. Architecture and entity design in progress.
+1. Universal Interoperability Layer — `docs/hapi-universal-interoperability-layer.md`
+2. Universal Exchange Protocol — `docs/hapi-universal-exchange-protocol.md`
+3. Open Education Intelligence Design — `open-education-intelligence/OEI_DESIGN.md`
+4. OEI Production Gate — `docs/open-education-intelligence/PRODUCTION_GATE.md`
+5. OEI Implementation Plan — `docs/superpowers/plans/2026-09-06-open-education-intelligence.md`
 
 ---
-*Carbon Actual Ecosystem — HAPI Bank + UXP + UIL (#)*
+*Carbon Actual Ecosystem — OEI + HAPI Bank + UXP + UIL (#)*
