@@ -6,8 +6,11 @@ const LICENCE_RULES = Object.freeze({
   'CC BY-ND': { access: true, reuse: true, adaptation: false, redistribution: true, attribution: true },
   'CC BY-NC-SA': { access: true, reuse: true, adaptation: true, redistribution: true, attribution: true, nonCommercial: true, shareAlike: true },
   'CC BY-NC-ND': { access: true, reuse: true, adaptation: false, redistribution: true, attribution: true, nonCommercial: true },
-  'all-rights-reserved': { access: false, reuse: false, adaptation: false, redistribution: false },
-  'unknown': { access: null, reuse: null, adaptation: null, redistribution: null },
+  // A resource may be publicly viewable while still retaining all reuse rights.
+  'all-rights-reserved': { access: true, reuse: false, adaptation: false, redistribution: false },
+  // Unknown licence means the resource can be surfaced for discovery, but its
+  // reuse/adaptation rights must not be assumed.
+  'unknown': { access: true, reuse: null, adaptation: null, redistribution: null },
 });
 
 function registerResource(resource = {}) {
@@ -48,8 +51,10 @@ function findLearningResources(query = {}, context = {}) {
     const freshness = resource.freshness ? 1 : 0;
     const accessible = context.accessibility && resource.accessibility?.[context.accessibility] ? 2 : 0;
     const rights = classifyReuseRights(resource.licence);
-    const compatible = context.requireAdaptation ? rights.adaptation === true : rights.access !== false;
-    return { resource, score: relevance + provenance + freshness + accessible + (compatible ? 2 : -4), rights };
+    const requiresAdaptation = context.requireAdaptation === true;
+    const requiresReuse = context.requireReuse === true;
+    const rightsCompatible = requiresAdaptation ? rights.adaptation === true : requiresReuse ? rights.reuse === true : rights.access === true;
+    return { resource, score: relevance + provenance + freshness + accessible + (rightsCompatible ? 2 : -4), rights };
   }).filter((item) => item.score > -2).sort((a, b) => b.score - a.score || a.resource.id.localeCompare(b.resource.id));
 }
 
