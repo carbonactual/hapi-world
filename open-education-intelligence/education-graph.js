@@ -26,18 +26,30 @@ function traceLearningPath(graph, learnerId, goal) {
   const node = (id) => nodes.find((item) => item.id === id);
   const start = nodes.find((item) => item.type === 'Learner' && item.id === learnerId);
   if (!start) return [];
+
   const path = [start];
-  let current = start.id;
-  const preferred = ['studies', 'learns-from', 'attempts', 'earns', 'develops', 'matches'];
-  for (const relation of preferred) {
-    const edge = edges.find((item) => item.from === current && item.relationship === relation);
-    if (!edge) continue;
+  const visited = new Set([start.id]);
+  const goalMatches = (candidate) => !goal || candidate.attributes?.goal === goal || candidate.attributes?.goals?.includes?.(goal);
+  const outgoing = (id) => edges.filter((edge) => edge.from === id);
+
+  // Follow the learner's explicit learning relationships first, then continue
+  // through learning outcomes and evidence-backed skills. The graph, rather
+  // than a hard-coded linear sequence, determines the path.
+  const queue = outgoing(start.id).filter((edge) => ['enrols-in', 'studies', 'learns-from', 'attempts', 'earns', 'develops'].includes(edge.relationship));
+  while (queue.length) {
+    const edge = queue.shift();
+    if (visited.has(edge.to)) continue;
     const next = node(edge.to);
     if (!next) continue;
+    visited.add(next.id);
     path.push(next);
-    current = next.id;
-    if (goal && next.attributes?.goal === goal) break;
+    if (goalMatches(next)) break;
+
+    for (const nextEdge of outgoing(next.id)) {
+      if (!visited.has(nextEdge.to)) queue.push(nextEdge);
+    }
   }
+
   return path;
 }
 
