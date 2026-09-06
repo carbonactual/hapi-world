@@ -124,6 +124,42 @@ alter table oei_services enable row level security;
 alter table oei_events enable row level security;
 alter table oei_consents enable row level security;
 
+-- Client access is tenant-scoped through the authenticated JWT. The service
+-- role remains available to trusted server-side orchestration and bypasses RLS.
+create policy if not exists oei_learner_profiles_tenant_policy on oei_learner_profiles
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_institution_relationships_tenant_policy on oei_institution_relationships
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_graph_nodes_tenant_policy on oei_graph_nodes
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_graph_edges_tenant_policy on oei_graph_edges
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_sources_tenant_policy on oei_sources
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_resources_tenant_policy on oei_resources
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_credentials_tenant_policy on oei_credentials
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_opportunities_tenant_policy on oei_opportunities
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_services_tenant_policy on oei_services
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_events_tenant_policy on oei_events
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+create policy if not exists oei_consents_tenant_policy on oei_consents
+  using (tenant_id = auth.jwt() ->> 'tenant_id')
+  with check (tenant_id = auth.jwt() ->> 'tenant_id');
+
 create index if not exists oei_graph_nodes_tenant_type_idx on oei_graph_nodes(tenant_id, type);
 create index if not exists oei_graph_edges_tenant_from_idx on oei_graph_edges(tenant_id, from_id);
 create index if not exists oei_resources_tenant_subject_idx on oei_resources(tenant_id, subject);
