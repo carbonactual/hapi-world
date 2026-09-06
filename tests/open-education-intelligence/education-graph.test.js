@@ -26,13 +26,28 @@ test('queries graph deterministically', () => {
 test('traces a learner learning path through explicit edges', () => {
   const learner = createEducationNode('Learner', { id: 'l1' });
   const course = createEducationNode('Course', { id: 'c1' });
+  const outcome = createEducationNode('LearningOutcome', { id: 'o1' });
   const skill = createEducationNode('Skill', { id: 's1', goal: 'data' });
   const graph = {
-    nodes: [learner, course, skill],
+    nodes: [learner, course, outcome, skill],
     relationships: [
       createEducationRelationship(learner, 'studies', course, { source: 'r1' }),
-      createEducationRelationship(course, 'teaches', createEducationNode('LearningOutcome', { id: 'o1' }), { source: 'r2' }),
+      createEducationRelationship(course, 'teaches', outcome, { source: 'r2' }),
       createEducationRelationship(learner, 'develops', skill, { source: 'r3' }),
+    ],
+  };
+  assert.deepEqual(traceLearningPath(graph, 'l1', 'data').map((n) => n.id), ['l1', 'c1', 'o1', 's1']);
+});
+
+test('stops the traversal when an intermediate node satisfies the goal', () => {
+  const learner = createEducationNode('Learner', { id: 'l1' });
+  const course = createEducationNode('Course', { id: 'c1', goal: 'data' });
+  const outcome = createEducationNode('LearningOutcome', { id: 'o1' });
+  const graph = {
+    nodes: [learner, course, outcome],
+    relationships: [
+      createEducationRelationship(learner, 'studies', course, { source: 'r1' }),
+      createEducationRelationship(course, 'teaches', outcome, { source: 'r2' }),
     ],
   };
   assert.deepEqual(traceLearningPath(graph, 'l1', 'data').map((n) => n.id), ['l1', 'c1']);
