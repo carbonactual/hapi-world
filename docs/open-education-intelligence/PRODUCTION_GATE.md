@@ -20,7 +20,13 @@ OEI is considered production-ready only when these gates are evidenced:
 
 - Universal OEI architecture: implemented.
 - Core domain, learner, graph, knowledge, learning, assessment, research, support, credential, opportunity, service, community modules: implemented.
+- Learning-path traversal: graph-driven implementation committed; runtime verification remains pending.
+- Knowledge licensing: access, reuse and adaptation are now explicitly separated; unknown rights are not assumed.
 - NOUN adapter boundary: implemented.
 - NOUN student-bot integration boundary: implemented.
-- Persistence schema: drafted with RLS enabled; **production migration/application remains a deployment step**.
+- Persistence schema: drafted with tenant-scoped RLS policies; **production migration/application remains a deployment step**.
+- Persistence RLS contract test: added.
+- GitHub Actions test workflow: added; **a successful CI run has not yet been observed**.
 - Test files: added; **runtime execution must be performed in CI or a repository-capable test environment before declaring the suite passing**.
+
+OEI therefore remains **implementation-complete in architecture/code, but not yet production-certified**.
