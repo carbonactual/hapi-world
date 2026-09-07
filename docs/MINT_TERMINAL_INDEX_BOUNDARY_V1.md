@@ -34,4 +34,10 @@ VALUE / ACTION / FEEDBACK
 
 The no-waste rule remains active regardless of Index promotion: value consumed by a failed/non-indexed operation is still accounted for through Proof, settlement, reconciliation, or ASH as appropriate.
 
+## Experience inheritance
+
+This lifecycle should be communicated with the OMNII living-system design language where useful: meaningful transitions may show arrival at Terminal, curation, and explicit promotion to Index, while never fabricating system activity.
+
+Spatial and ecological context should be used where it materially improves comprehension of HAPI World state.
+
 This document is additive and does not authorize repository consolidation, deletion, archive, retirement, or rewrite.
