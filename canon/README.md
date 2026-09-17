@@ -11,6 +11,7 @@ The following canon/ documents are **no longer drafts** — they are ratified au
 - HAPI_WORLD_SYSTEMS.md (the registry of the twelve native systems)
 - VOICE_VIDEO_SURFACE_LAW.md (obligatory voice/video product surfaces)
 - OMNI_BROWSER.md (the law of the browser surface)
+- HAPI_WORLD_COMPLETION.md (the 14 completion systems; registry extended 12 to 26; ABBA Declaration: orchestrator + living law)
 
 All other files in this folder remain draft extensions pending the CANON.md Part XVIII amendment process.
 
