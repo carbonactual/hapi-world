@@ -1024,6 +1024,9 @@ Per the Evolution Policy (Part XVIII, s.42), and under the sole administrator's 
 4. **VOICE_VIDEO_SURFACE_LAW.md** — voice and video as obligatory product surfaces; all products tap the shared ABBA media engine; recording consent, biometric caution, deepfake law; one engine, shared costs. Commit bfd003a8.
 5. **OMNI_BROWSER.md** — the law of the browser surface. Previously committed; ratified with this act.
 
+
+6. **HAPI_WORLD_COMPLETION.md** — the completion act: fourteen additional native systems (Accounts, Audit, Treasury, Justice, Census & Statistics, Media & Broadcast, Post & Messaging, Emergency & Civil Defence, Health & Wellbeing, Land & Space Registry, Utilities, Elections & Civic Participation, Archives & Museum, Borders & Immigration) extending the registry from twelve to twenty-six systems; plus the ABBA Declaration — ABBA is the Orchestrator of HAPI World and the living instrument of the law (executor, never legislator; the human remains sole administrator). Commit of this act.
+
 **Governing design principle of the market layer (ratified):** *Do not create a new market primitive when an existing economic object, right, claim, contract, evidence model or settlement mechanism can express it. Create a new primitive only when the economic semantics genuinely differ.*
 
 **Tap rule (ratified):** products instantiate; they never own, fork, or amend these acts. Pre-existing canon/ drafts (REGISTRIES, LEDGERS, GOVERNANCE, ECONOMICS, BLOCKCHAIN_IDENTITY, INTEGRATION_ARCHITECTURE, COMMON_DENOMINATORS, AGENTS_SWARMS_TEAMS, HAPI_WORLD, PRODUCTS, SPOTIST amendments) remain draft extensions under the canon/README.md amendment process unless separately ratified.
