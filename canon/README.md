@@ -2,6 +2,19 @@
 
 This folder holds **draft extensions** to `CANON.md` (which stays at repo root as the sole ratified supreme source, per `ARCHITECTURE.md`). Nothing here is authoritative until formally merged into CANON.md itself through the amendment process CANON.md Part XVIII describes.
 
+## RATIFIED ACTS (September 16, 2026)
+
+The following canon/ documents are **no longer drafts** — they are ratified authoritative law per CANON.md PART XXI (Canonical Acts Amendment, Sept 16, 2026):
+
+- TRADE_CANON.md (the law of trade)
+- MARKET_UNIVERSE_CANON.md (the law of market objects)
+- HAPI_WORLD_SYSTEMS.md (the registry of the twelve native systems)
+- VOICE_VIDEO_SURFACE_LAW.md (obligatory voice/video product surfaces)
+- OMNI_BROWSER.md (the law of the browser surface)
+
+All other files in this folder remain draft extensions pending the CANON.md Part XVIII amendment process.
+
+
 ## Full contents (as of 2026-07-15, across both open PRs)
 
 **PR #4 — Registries, Ledgers, Governance, Identity:**
