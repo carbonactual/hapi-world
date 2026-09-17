@@ -1,6 +1,8 @@
-# OMNII Integration Contract
+# Carbon Actual Integration Contract
 
-HAPI World Nexus is an integration/audit surface and must consume, not redefine, the OMNII interoperability constitution.
+**Legacy path retained for compatibility:** the filename remains `OMNII_INTEGRATION_CONTRACT.md` so existing links do not break. The canonical operating-spine identity is Carbon Actual.
+
+HAPI World Nexus is an integration/audit surface and must consume, not redefine, the Carbon Actual interoperability contracts.
 
 Canonical AI continuity is:
 
