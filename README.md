@@ -69,3 +69,17 @@ Interoperability infrastructure for identities, AI, agents, institutions, protoc
 
 ---
 *Carbon Actual Ecosystem — OEI + HAPI Bank + UXP + UIL (#)*
+
+## Canonical Layer (canon/)
+
+The immutable law of the ecosystem lives in `canon/`:
+
+1. **CANON.md** (root) — the supreme source of truth
+2. **TRADE_CANON.md** — the law of trade: definitions, the Seven Eternal Laws, and the canonical type systems (transport firms, markets, forms, logistics, rails, credit, factories, SME access)
+3. **MARKET_UNIVERSE_CANON.md** — the law of market objects: the nine-object universe (assets, rights, claims, obligations, opportunities, capabilities, capacities, information, relationships), evidence-before-value, the anti-loophole layer, the 23-state lifecycle, settlement graph, mechanics engine, jurisdiction awareness, and the canonical TIP stack
+4. **HAPI_WORLD_SYSTEMS.md** — the complete registry of HAPI World's 12 native systems: HAPI Bank, HAPI Institute GPT, Earning, Monetisation, Mining, Service, Learning, Knowledge, Swarm, Teams, Orchestration, Continuum — with the interoperability map
+5. **OMNI_BROWSER.md** — the law of the browser surface
+6. **VOICE_VIDEO_SURFACE_LAW.md** — voice and video as obligatory product surfaces; every product taps the shared ABBA media engine
+
+Products tap these canons. Products never own or amend them.
+
