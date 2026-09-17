@@ -1,1 +1,12 @@
-{"fabric_version":"1.0.0","domain":"native ecosystem AI world","canonical_fabric":"carbonactual/Carbon-Actual-/architecture/integration-fabric","owned_events":[],"consumes":["identity.minted","authority.granted","authority.revoked","seed.created","seed.graduated","heritage.recorded","task.created","task.completed","pulse.emitted","incident.detected","incident.resolved"],"authority":"SealGrant","identity":"#","delivery":"at-least-once; idempotent consumers required","human_admin":"Human ABBA"}
+{
+  "fabric_version": "1.0.0",
+  "domain": "native ecosystem AI world",
+  "canonical_fabric": "carbonactual/carbonactual/architecture/CARBON_ACTUAL_INTEGRATION_FABRIC_MANIFEST.json",
+  "owned_events": [],
+  "consumes": ["identity.minted", "authority.granted", "authority.revoked", "seed.created", "seed.graduated", "heritage.recorded", "task.created", "task.completed", "pulse.emitted", "incident.detected", "incident.resolved"],
+  "authority": "SealGrant",
+  "identity": "#",
+  "delivery": "at-least-once; idempotent consumers required",
+  "human_admin": "Human ABBA",
+  "constitutional_authority": "carbonactual/hapi-world/CANON.md"
+}
