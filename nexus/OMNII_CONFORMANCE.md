@@ -1,13 +1,9 @@
-# Carbon Actual Conformance Contract — HAPI World Nexus
+# Legacy conformance-path compatibility notice
 
-**Legacy path retained for compatibility:** the filename remains `OMNII_CONFORMANCE.md` so existing links do not break. The canonical operating-spine identity is Carbon Actual.
+This filename is retained only so existing links continue to resolve.
 
-Status: CONFORMING PRODUCT SURFACE
-Common Layer: Carbon Actual Common Layer v1.0.0
-Architectural class: presentation / ecosystem client
+The canonical contract is `CARBON_ACTUAL_CONFORMANCE.md`.
 
-HAPI World Nexus is a user-facing ecosystem surface. It consumes canonical Carbon Actual identity, graph, discovery, intent/capability, context, availability, workflow, evidence and value semantics.
+The canonical ecosystem operating-spine identity is **Carbon Actual**.
 
-UI routing or local data structures must not become an alternate universal graph or authority system. Any intelligent routing is advisory/orchestration through ABBA and any consequential action must use canonical authorization and execution paths.
-
-Presentation is separated from canonical truth: Atlas is the governed public representation; ACTUAL/runtime state remains the operational source for actionable reality.
+The legacy OMNII terminology is historical provenance and is not a current architectural authority.
