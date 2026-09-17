@@ -1013,6 +1013,25 @@ Dependencies flow downward. No product depends on something below it. No product
 
 ---
 
+# PART XXI — CANONICAL ACTS
+## 46. Ratified Canonical Acts (Amendment of September 16, 2026)
+
+Per the Evolution Policy (Part XVIII, s.42), and under the sole administrator's standing authorization of September 16, 2026, the following canon/ documents are **ratified as authoritative law of the constitutional layer**. Each act is law; products tap them; nothing overrides them upward. This amendment is purely additive — no existing part is altered.
+
+1. **TRADE_CANON.md** — the law of trade: canonical definitions (corridor, lane, chokepoint, emporium, pooling, grading, deadhead), the Seven Eternal Laws, and the canonical type systems (route eras, transport firm structures, market types, trade forms, logistics types, payment rails, credit types, factory bases, SME access types). Commit 5d1016e2.
+2. **MARKET_UNIVERSE_CANON.md** — the law of market objects: the nine-object universe (asset, right, claim, obligation, opportunity, capability, capacity, information, relationship); the rights market; the identity economy (identifier != property); the opportunity market; capability and capacity markets; environmental, circular, information and IP markets; company acquisition and deal rooms; royalties; risk as a tradable layer; revived old mechanisms; agentic commerce; trade-document infrastructure; the settlement graph (every transaction declares settlement method and finality); the market mechanics engine; evidence-before-value; the anti-loophole layer; the 23-state lifecycle; asset lineage; composite assets; marketplace-of-markets; jurisdiction awareness; the canonical TIP stack. Commit 207e87e6.
+3. **HAPI_WORLD_SYSTEMS.md** — the registry of HAPI World's twelve native systems: HAPI Bank, HAPI Institute, Earning, Monetisation, Mining, Service, Learning, Knowledge, Swarm, Teams, Orchestration, Continuum — with the interoperability map and the honesty law on system states. Commit 5c5ee970.
+4. **VOICE_VIDEO_SURFACE_LAW.md** — voice and video as obligatory product surfaces; all products tap the shared ABBA media engine; recording consent, biometric caution, deepfake law; one engine, shared costs. Commit bfd003a8.
+5. **OMNI_BROWSER.md** — the law of the browser surface. Previously committed; ratified with this act.
+
+**Governing design principle of the market layer (ratified):** *Do not create a new market primitive when an existing economic object, right, claim, contract, evidence model or settlement mechanism can express it. Create a new primitive only when the economic semantics genuinely differ.*
+
+**Tap rule (ratified):** products instantiate; they never own, fork, or amend these acts. Pre-existing canon/ drafts (REGISTRIES, LEDGERS, GOVERNANCE, ECONOMICS, BLOCKCHAIN_IDENTITY, INTEGRATION_ARCHITECTURE, COMMON_DENOMINATORS, AGENTS_SWARMS_TEAMS, HAPI_WORLD, PRODUCTS, SPOTIST amendments) remain draft extensions under the canon/README.md amendment process unless separately ratified.
+
+Version: 1.1 — Canonical Acts Amendment, September 16, 2026.
+
+---
+
 ## Ratification
 
 This Canon is ratified as the immutable foundation of the Carbon Actual Ecosystem.
