@@ -19,7 +19,6 @@
     {"source": "Pulse", "facet": "event", "mode": "projection", "preserves_source": true},
     {"source": "Proof", "facet": "evidence", "mode": "projection", "preserves_source": true},
     {"source": "KnowledgeItem.provenance", "facet": "evidence", "mode": "projection", "preserves_source": true},
-    {"source": "MediaEvidence", "facet": "evidence", "mode": "projection", "preserves_source": true},
     {"source": "Entity.lifecycle", "facet": "state", "mode": "projection", "preserves_source": true},
     {"source": "Workflow.state", "facet": "state", "mode": "projection", "preserves_source": true},
     {"source": "Transaction.state", "facet": "state", "mode": "projection", "preserves_source": true},
