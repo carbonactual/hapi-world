@@ -46,3 +46,22 @@ All other files in this folder remain draft extensions pending the CANON.md Part
 
 ## Origin
 These drafts were extracted from a large architecture discussion (2026-07-14/15) that mixed genuinely substantive systems design with unverified operational claims. Only the structural/architectural material was kept; claims of things being "built," "deployed," or "running" were excluded unless independently verified against actual GitHub/Vercel/Supabase state. See `COMMON_DENOMINATORS.md`'s "What was deliberately excluded" section for the specific list of what didn't make it in, and why.
+
+## DRAFT REGISTER (post-completion reconciliation, Sept 16, 2026)
+
+Each draft extension's relationship to the ratified acts:
+
+1. `AGENTS_SWARMS_TEAMS.md` — SUPERSEDED (core content folded into HAPI_WORLD_SYSTEMS.md Systems 9-11); retained for the Swarm-vs-Team distinction text (Swarm = many agents, same purpose; Team = fewer agents, diverse roles).
+2. `HAPI_WORLD.md` — SUPERSEDED (world definition and oversight model folded into HAPI_WORLD_SYSTEMS.md + HAPI_WORLD_COMPLETION.md); retained for the "full oversight, not direct participation" clarification.
+3. `SPOTIST_SEEK_CAPABILITY_AMENDMENT.md` — ACTIVE ecosystem amendment (not a draft); canonical source remains omnii/docs/canonical.
+4. `SPOTIST_V2_RECONCILIATION.md` — product reconciliation record; retained.
+5. `BLOCKCHAIN_IDENTITY.md` — COMPLEMENTARY DRAFT (DID/ENS/HNS technical implementation; unique).
+6. `COMMON_DENOMINATORS.md` — COMPLEMENTARY DRAFT (component conformance checklist; unique).
+7. `ECONOMICS.md` — COMPLEMENTARY DRAFT (Inverted Economics detail; principles ratified in CANON.md Part VII).
+8. `GOVERNANCE.md` — COMPLEMENTARY DRAFT (SealGrant rights/defaults formalization; unique).
+9. `INTEGRATION_ARCHITECTURE.md` — COMPLEMENTARY DRAFT (proven integration tooling: Zapier/Vercel/Supabase MCP; unique operational record).
+10. `LEDGERS.md` — COMPLEMENTARY DRAFT (named ledger views; Accounts System declares the machinery).
+11. `PRODUCTS.md` — COMPLEMENTARY DRAFT (product domain catalog with OMNII Common Layer mapping).
+12. `REGISTRIES.md` — COMPLEMENTARY DRAFT (registry taxonomy mapping to ontology entities).
+
+No draft was deleted; superseded drafts are marked and retained as history per the Continuum law (nothing dies unrecorded).
