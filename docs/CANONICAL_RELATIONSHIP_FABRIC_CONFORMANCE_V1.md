@@ -20,4 +20,4 @@ HAPI World may cache or materialize derived relationship state for runtime perfo
 
 ## Conformance source
 
-The authoritative shared contract is `B3C0M1NG/carbon_actual/FLOOR/RELATIONSHIP_FABRIC_V1.md`.
+The authoritative shared contract is `carbonactual/carbonactual`'s canonical relationship-fabric contract, inherited under the Carbon Actual operating spine and subject to HAPI World `CANON.md` constitutional supremacy.
