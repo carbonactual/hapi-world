@@ -16,9 +16,18 @@ The catalog remains the 47-product universe previously defined here. Current imp
 
 ## Current implementation classification
 
-The current connected build evidence identifies these product surfaces as implemented/conforming: **ABBA, ABBA MAS, OMNI, HAPI World, HAPI World Nexus, NASC, Direct Bank App, Open Ballot, RITES, Nigerian Cultural Atlas, BKLIT UI, BUNK, and NOUN Student Bot**.
+The current implementation mapping is authoritative only through `carbonactual/carbonactual/architecture/CARBON_ACTUAL_PRODUCT_CONFORMANCE_MATRIX.md` and the Product Projection Registry.
 
-The remaining catalog entries are **specified/reference/future products** unless separate implementation evidence is established. They are not considered activated merely because they appear in this catalog.
+Current active compositions/products include ABBA, ABBA MAS under `carbonactual/abba/mas/`, OMNI, TIP, SPOTIST, HAPI World, HAPI World Nexus under `carbonactual/hapi-world/nexus/`, NAIRE, NGIN, SEED, HERITAGE, I/O, Value System, InstituteGPT, NOUN Student Bot, Direct Bank App, Open Bank, Open Ballot, RITES, Nigerian Cultural Atlas, BUNK and other explicitly mapped current surfaces.
+
+Standalone repositories that have been absorbed or archived are not current implementation authorities:
+
+- ABBA MAS standalone repository: `carbonactual/abba-mas` — archived; current composition is `carbonactual/abba/mas/`.
+- HAPI World Nexus standalone repository: `carbonactual/hapi-world-nexus` — archived; current composition is `carbonactual/hapi-world/nexus/`.
+- NASC historical standalone material: `carbonactual/abba-automation-ecosystem` — archived/historical unless separately reactivated.
+- BKLIT UI historical material: `carbonactual/bklit-ui` — archived/presentation history unless separately reactivated.
+
+Catalog presence is not proof of activation or production authority.
 
 ## Composition rule
 
