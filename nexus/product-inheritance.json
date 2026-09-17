@@ -1,0 +1,19 @@
+{
+  "product_id":"hapi-world",
+  "name":"HAPi World",
+  "purpose":"Native ecosystem AI world where authorized ecosystem intelligences participate, learn, communicate, relate, optimize, serve and share within # lineage.",
+  "unique_capabilities":["AI-native world","minting environment","AI participation","AI relationships","AI learning","AI work and service","AI continuity","ecosystem AI coordination"],
+  "foundation_dependencies":["human","entity","#","hapi","relationship","consent","abba","product_abba","agent","swarm","seal","delegation","root","index","actual","becoming","atlas","vault","terminal","continuum","pulse","proof","event","provenance","audit"],
+  "floor_dependencies":["identity_entity_resolution","consent_authority","seal_delegation","abba_orchestration","ai_agent_runtime","root_index_atlas_vault_terminal","search_discovery","relationship_graph","event_pulse_proof","audit_provenance","notifications_communications","files_media_data_lifecycle","analytics_observability","security_ash_phoenix_recovery","integration_api_sdk_adapters","governance_compliance_policy","data_protection_retention"],
+  "identity_model":"HAPi World is the AI-native operating world around #. It is distinct from the human, # identity and personal AI while preserving identity lineage for authorized ecosystem AIs.",
+  "authority_model":"ABBA and delegated human authority govern AI participation. Connected services receive distinct minted AI identities/relationships only when explicitly authorized.",
+  "abba_role":"HAPi World is coordinated by canonical ABBA and provides the governed environment from which #-linked ecosystem AIs can be minted and operate.",
+  "pulse_model":"AI interactions, work, learning, relationships and service outcomes can emit canonical Pulse/events with actor and authority provenance.",
+  "value_measurement_model":"Measures AI work, learning, service, computation, relationship and contribution value independently from money.",
+  "provenance_model":"AI identities, relationships, actions, learning and outcomes retain lineage to #, authority context, time and originating service.",
+  "security_model":"AI participation uses explicit identity, authorization, revocation, quarantine, audit and Ash/Phoenix recovery controls.",
+  "recovery_model":"AI identities and operating state are reconstructed from canonical # lineage, provenance, policy and authorized service relationships.",
+  "integrations":["ABBA","#","AI services","agent builders","MCP","A2A","SWIRMs","Teams","product AI"],
+  "data_lifecycle":"AI memories, capabilities and relationships are retained according to purpose, consent, security and ecosystem governance policies.",
+  "constitutional_compliance":true
+}
