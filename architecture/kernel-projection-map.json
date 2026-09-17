@@ -1,0 +1,30 @@
+{
+  "kernel": "architecture/ecosystem-kernel.json",
+  "mode": "projection-only",
+  "preserves_source": true,
+  "projections": [
+    {"source": "Identity", "facet": "identity", "mode": "projection", "preserves_source": true},
+    {"source": "SealGrant", "facet": "authority", "mode": "projection", "preserves_source": true},
+    {"source": "SealConsent", "facet": "authority", "mode": "projection", "preserves_source": true},
+    {"source": "Mission", "facet": "intent", "mode": "projection", "preserves_source": true},
+    {"source": "Goal", "facet": "intent", "mode": "projection", "preserves_source": true},
+    {"source": "Capability", "facet": "capability", "mode": "projection", "preserves_source": true},
+    {"source": "Provider", "facet": "capability", "mode": "projection", "preserves_source": true},
+    {"source": "DigitalService", "facet": "capability", "mode": "projection", "preserves_source": true},
+    {"source": "Relationship", "facet": "relationship", "mode": "projection", "preserves_source": true},
+    {"source": "Ownership", "facet": "relationship", "mode": "projection", "preserves_source": true},
+    {"source": "Trust", "facet": "relationship", "mode": "projection", "preserves_source": true},
+    {"source": "Event", "facet": "event", "mode": "projection", "preserves_source": true},
+    {"source": "SealEvent", "facet": "event", "mode": "projection", "preserves_source": true},
+    {"source": "Pulse", "facet": "event", "mode": "projection", "preserves_source": true},
+    {"source": "Proof", "facet": "evidence", "mode": "projection", "preserves_source": true},
+    {"source": "KnowledgeItem.provenance", "facet": "evidence", "mode": "projection", "preserves_source": true},
+    {"source": "MediaEvidence", "facet": "evidence", "mode": "projection", "preserves_source": true},
+    {"source": "Entity.lifecycle", "facet": "state", "mode": "projection", "preserves_source": true},
+    {"source": "Workflow.state", "facet": "state", "mode": "projection", "preserves_source": true},
+    {"source": "Transaction.state", "facet": "state", "mode": "projection", "preserves_source": true},
+    {"source": "Value", "facet": "value", "mode": "projection", "preserves_source": true},
+    {"source": "IOLedger", "facet": "value", "mode": "projection", "preserves_source": true},
+    {"source": "TIP", "facet": "value", "mode": "projection", "preserves_source": true}
+  ]
+}
