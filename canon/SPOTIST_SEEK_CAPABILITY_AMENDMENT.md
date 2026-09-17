@@ -1,7 +1,8 @@
 # SPOTIST — Ecosystem Capability Amendment
 
 **Status:** ACTIVE ECOSYSTEM AMENDMENT
-**Canonical constitutional source:** `carbonactual/omnii/docs/canonical/SPOTIST_CANONICAL_CAPABILITY.md`
+**Canonical architecture source:** `carbonactual/carbonactual/architecture/SPOTIST_CANONICAL_CAPABILITY.md`
+**Constitutional authority:** this amendment remains subordinate to `CANON.md`.
 
 ## Purpose
 
@@ -17,21 +18,11 @@ The scope is open-world and may include people, relationships, identities, anima
 
 ## Product relationship
 
-SPOTIST may exist as:
-
-- a reusable ecosystem capability;
-- a standalone product experience;
-- a module inside another product;
-- an API/service;
-- an agent capability;
-- a workflow;
-- an embedded seek interface.
-
-A product that consumes SPOTIST does not become the owner of SPOTIST's canonical meaning.
+SPOTIST may exist as a reusable ecosystem capability, standalone product experience, module, API/service, agent capability, workflow or embedded seek interface. A product that consumes SPOTIST does not become the owner of SPOTIST's canonical meaning.
 
 ## Composition
 
-- **OMNII** provides the constitutional/runtime substrate.
+- **Carbon Actual** provides the operating-spine contracts and constitutional interoperability boundary.
 - **ABBA** interprets, reasons and orchestrates.
 - **SPOTIST** performs the seek/discovery/matching function.
 - **DESK** may expose SPOTIST as a participant-facing dashboard capability.
@@ -45,7 +36,7 @@ Supplier discovery, procurement, demand aggregation, manufacturing sourcing, cap
 
 ## Boundary
 
-SPOTIST discovery does not itself grant authority. Sensitive personal discovery, identity disclosure, access to private records, regulated services, consequential communications, physical intervention, agreements and movement of value remain subject to the applicable authority, consent, privacy, safeguarding, evidence, safety and governance mechanisms.
+SPOTIST discovery does not itself grant authority. Sensitive personal discovery, identity disclosure, access to private records, regulated services, consequential communications, physical intervention, agreements and movement of value remain subject to applicable authority, consent, privacy, safeguarding, evidence, safety and governance mechanisms.
 
 ## Canonical invariant
 
