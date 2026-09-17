@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Carbon Actual Ecosystem Kernel",
+  "version": "1.0.0",
+  "status": "compatibility-layer",
+  "authority": "CANON.md",
+  "principle": "Identity → Authority → Intent → Capability → Relationship → Event → Evidence → State → Value",
+  "facets": [
+    {
+      "id": "identity",
+      "question": "Who or what is this?",
+      "canonical_anchors": ["Identity", "#", "lineage"],
+      "minimum_fields": ["id", "hash_id", "lineage"],
+      "notes": "Identity is unique, lineage-bearing, and governed by the constitutional identity model."
+    },
+    {
+      "id": "authority",
+      "question": "Who may act, and within what scope?",
+      "canonical_anchors": ["Authority", "SealGrant", "SealConsent"],
+      "minimum_fields": ["grant_id", "scope", "status"],
+      "notes": "Authority is explicit. A capability does not imply authority."
+    },
+    {
+      "id": "intent",
+      "question": "What is an actor trying to accomplish?",
+      "canonical_anchors": ["Mission", "Goal", "intent-bearing workflow"],
+      "minimum_fields": ["intent_id", "actor_id", "objective", "status"],
+      "notes": "Intent is declarative and must remain separable from execution."
+    },
+    {
+      "id": "capability",
+      "question": "What can be done?",
+      "canonical_anchors": ["Capability", "Provider", "DigitalService"],
+      "minimum_fields": ["capability_id", "provider_id", "scope"],
+      "notes": "Capabilities may be supplied by people, agents, services, institutions, devices, or external systems."
+    },
+    {
+      "id": "relationship",
+      "question": "How are entities connected?",
+      "canonical_anchors": ["Relationship", "Ownership", "Trust", "delegation"],
+      "minimum_fields": ["relationship_id", "from_entity", "to_entity", "relationship_type"],
+      "notes": "Domain relationships are projections over a shared relationship model."
+    },
+    {
+      "id": "event",
+      "question": "What happened or was attempted?",
+      "canonical_anchors": ["Event", "SealEvent", "Pulse"],
+      "minimum_fields": ["event_id", "event_type", "timestamp", "actors"],
+      "notes": "Events may be observed or produced in physical, digital, virtual, broadcast, remote, or hybrid contexts."
+    },
+    {
+      "id": "evidence",
+      "question": "What supports the claim about what happened or what is true?",
+      "canonical_anchors": ["Proof", "provenance", "media evidence", "verification"],
+      "minimum_fields": ["evidence_id", "source", "captured_at", "integrity"],
+      "notes": "Evidence supports claims, events, state, identity, ownership, provenance, or value; it is not the claim itself."
+    },
+    {
+      "id": "state",
+      "question": "What is the entity, relationship, intent, capability, or transaction's current condition?",
+      "canonical_anchors": ["state", "lifecycle", "workflow state", "transaction state"],
+      "minimum_fields": ["subject_id", "state", "effective_at"],
+      "notes": "Current state is a projection of recorded events and must remain reconstructable from history."
+    },
+    {
+      "id": "value",
+      "question": "What measurable consequence or worth resulted?",
+      "canonical_anchors": ["Value", "Pulse", "IOLedger", "TIP"],
+      "minimum_fields": ["value_id", "subject_id", "measure", "recorded_at"],
+      "notes": "Value is broader than money; financial balances are one value representation."
+    }
+  ],
+  "rules": [
+    {"id": "capability-does-not-imply-authority", "statement": "Capability and authority are distinct facets."},
+    {"id": "event-does-not-equal-evidence", "statement": "An event is an occurrence; evidence supports claims about occurrences or states."},
+    {"id": "state-is-not-history", "statement": "Current state is not the complete event history."},
+    {"id": "intent-is-not-execution", "statement": "An intent expresses an objective and does not itself execute an action."},
+    {"id": "value-is-not-money-only", "statement": "Value may be financial or non-financial."}
+  ],
+  "compatibility": {
+    "canonical_source": "CANON.md",
+    "mode": "additive",
+    "delete_existing_concepts": false,
+    "rename_existing_concepts": false,
+    "modify_canon": false,
+    "infrastructure_neutral": true
+  }
+}
