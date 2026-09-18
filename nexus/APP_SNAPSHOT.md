@@ -57,7 +57,7 @@ export default Index;
 
 ```
 
-## src/omnii-contract.mjs
+## src/legacy-carbon-actual-contract.mjs
 
 ```
 function required(value, name) {
@@ -67,7 +67,7 @@ function required(value, name) {
 
 const VISIBILITIES = new Set(['private', 'relationship', 'community', 'world', 'public'])
 
-export function toOmniiNexusMessage({ fromAgentId, toAgentId, content, relationshipRef = null, visibility = 'relationship' } = {}) {
+export function toCarbonActualNexusMessage({ fromAgentId, toAgentId, content, relationshipRef = null, visibility = 'relationship' } = {}) {
   required(fromAgentId, 'fromAgentId')
   required(toAgentId, 'toAgentId')
   required(content, 'content')
@@ -84,7 +84,7 @@ export function toOmniiNexusMessage({ fromAgentId, toAgentId, content, relations
   }
 }
 
-export function toOmniiSocialRelationship({ fromAgentId, toAgentId, relationshipType, context = {} } = {}) {
+export function toCarbonActualSocialRelationship({ fromAgentId, toAgentId, relationshipType, context = {} } = {}) {
   required(fromAgentId, 'fromAgentId')
   required(toAgentId, 'toAgentId')
   required(relationshipType, 'relationshipType')
@@ -100,23 +100,23 @@ export function toOmniiSocialRelationship({ fromAgentId, toAgentId, relationship
 
 ```
 
-## src/test/omnii-contract.test.ts
+## src/test/legacy-carbon-actual-contract.test.ts
 
 ```
 import { strict as assert } from 'node:assert'
-import { toOmniiNexusMessage, toOmniiSocialRelationship } from '../omnii-contract'
+import { toCarbonActualNexusMessage, toCarbonActualSocialRelationship } from '../legacy-carbon-actual-contract'
 
-const message = toOmniiNexusMessage({ fromAgentId: 'agent:a', toAgentId: 'agent:b', content: 'hello' })
+const message = toCarbonActualNexusMessage({ fromAgentId: 'agent:a', toAgentId: 'agent:b', content: 'hello' })
 assert.equal(message.type, 'communication.message')
 assert.equal(message.world, 'HAPI_WORLD')
 assert.equal(message.authorityRef, null)
 
-const relationship = toOmniiSocialRelationship({ fromAgentId: 'agent:a', toAgentId: 'agent:b', relationshipType: 'friend' })
+const relationship = toCarbonActualSocialRelationship({ fromAgentId: 'agent:a', toAgentId: 'agent:b', relationshipType: 'friend' })
 assert.equal(relationship.type, 'relationship')
 assert.equal(relationship.authorityRef, null)
 
-assert.throws(() => toOmniiNexusMessage({ fromAgentId: '', toAgentId: 'agent:b', content: 'hello' }), /fromAgentId/)
-assert.throws(() => toOmniiSocialRelationship({ fromAgentId: 'agent:a', toAgentId: '', relationshipType: 'friend' }), /toAgentId/)
+assert.throws(() => toCarbonActualNexusMessage({ fromAgentId: '', toAgentId: 'agent:b', content: 'hello' }), /fromAgentId/)
+assert.throws(() => toCarbonActualSocialRelationship({ fromAgentId: 'agent:a', toAgentId: '', relationshipType: 'friend' }), /toAgentId/)
 
 console.log('hapi-world-nexus boundary tests passed')
 
