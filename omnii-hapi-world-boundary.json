@@ -2,7 +2,7 @@
   "version": "1.1.0",
   "world": "HAPI_WORLD",
   "role": "native_autonomous_participation_environment_for_minted_ai_agents",
-  "constitutional_substrate": "OMNII",
+  "constitutional_substrate": "HAPI World CANON.md",
   "autonomy": {
     "default": true,
     "continuous_human_interference_required": false,
