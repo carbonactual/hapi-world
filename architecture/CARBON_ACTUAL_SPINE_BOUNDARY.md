@@ -1,14 +1,14 @@
-# HAPI World ↔ Carbon Actual / OMNII Boundary
+# HAPI World ↔ Carbon Actual Boundary
 
 This document defines an interoperability boundary only. It does **not** alter `CANON.md`.
 
 ## Constitutional authority
 
-`CANON.md` remains the supreme constitutional source for HAPI World. Carbon Actual/OMNII does not override, replace, or reinterpret the Canon.
+`CANON.md` remains the supreme constitutional source for HAPI World. Carbon Actual does not override, replace, or reinterpret the Canon.
 
 ## Operating-spine relationship
 
-Carbon Actual is the ecosystem operating spine. OMNII is its architectural identity. HAPI World remains the constitutional world/law layer.
+Carbon Actual is the ecosystem operating spine. HAPI World remains the constitutional world/law layer.
 
 The Carbon Actual semantic kernel is a derived interoperability vocabulary:
 
@@ -19,7 +19,7 @@ The kernel is a projection layer, not a replacement for HAPI World's ontology or
 ## Boundary rules
 
 - HAPI World defines constitutional meaning.
-- Carbon Actual/OMNII provides cross-ecosystem operating semantics and contracts.
+- Carbon Actual provides cross-ecosystem operating semantics and contracts.
 - Existing HAPI World objects remain authoritative in their domain.
 - A kernel facet must not be interpreted as a new constitutional entity type.
 - Constitutional rules must not be duplicated into product-specific repositories.
