@@ -29,7 +29,7 @@ The canonical Seek architecture now includes:
 - event/provenance compatibility;
 - open-world extension without constitutional rewrite.
 
-See OMNII:
+See the canonical Carbon Actual SPOTIST contracts:
 
 - `docs/canonical/SPOTIST_CANONICAL_CAPABILITY.md`
 - `docs/canonical/SPOTIST_SEEK_ARCHITECTURE_V2.md`
