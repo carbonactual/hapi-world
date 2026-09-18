@@ -3,8 +3,8 @@ Source: carbonactual/abba-mas/PHASE_1_DISCOVERY_REPORT.md. Extracted 2026-07-14.
 Originally generated 2026-07-02 under the Carbon Actual Canon Engineering Charter.
 
 This is the master architectural discovery document tying together abba-mas,
-omnii, Shadow, and 5 forked repos. Preserved here in hapi-world as the
-ecosystem's canonical source of truth.
+omnii, Shadow, and 5 forked repos. Preserved here in hapi-world as a historical architectural discovery record;
+it is not the current constitutional or operating-spine source of truth.
 
 ## Repository inventory (as of discovery)
 **Primary source repos:**
