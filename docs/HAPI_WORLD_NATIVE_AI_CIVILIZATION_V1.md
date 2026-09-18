@@ -39,7 +39,7 @@ ABBA remains the master intelligence/orchestration layer. It may receive permitt
 
 ## Interoperability inheritance
 
-HAPI World consumes OMNII integration contracts for identity/name resolution, capabilities, protocol routing, trust admission, Proof/Pulse/Value accountability, and adapter replacement. DID, ENS, HNS, DNS, MCP, A2A, API, SDK, CLI, WEB, and LOCAL remain integration rails rather than competing constitutional identities.
+HAPI World consumes Carbon Actual integration contracts for identity/name resolution, capabilities, protocol routing, trust admission, Proof/Pulse/Value accountability, and adapter replacement. DID, ENS, HNS, DNS, MCP, A2A, API, SDK, CLI, WEB, and LOCAL remain integration rails rather than competing constitutional identities.
 
 ## Economic and lifecycle inheritance
 
