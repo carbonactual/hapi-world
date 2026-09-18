@@ -16,7 +16,7 @@ HAPI World Nexus is part of the HAPI World family.
 
 ## Shared invariants
 
-OMNII governs universal contracts. ABBA provides intelligence/orchestration. SEAL governs authority. Proof precedes Actual. Pulse feeds learning. Future/simulated/unknown states do not silently become Actual.
+Carbon Actual governs universal operating-spine contracts. HAPI World `CANON.md` remains constitutionally supreme. ABBA provides intelligence/orchestration. SEAL governs authority. Proof precedes Actual. Pulse feeds learning. Future/simulated/unknown states do not silently become Actual.
 
 ## Experience and natural habitat inheritance
 
