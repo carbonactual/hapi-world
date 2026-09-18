@@ -8,7 +8,7 @@ HAPI World Nexus is part of the HAPI World family.
 - capability discovery and federation;
 - world/control-plane services;
 - historical ecosystem audit and evidence where retained;
-- adapters to ABBA, OMNII and external providers.
+- adapters to ABBA, Carbon Actual and external providers.
 
 ## Family contract
 
