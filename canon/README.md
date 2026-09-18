@@ -53,7 +53,7 @@ Each draft extension's relationship to the ratified acts:
 
 1. `AGENTS_SWARMS_TEAMS.md` — SUPERSEDED (core content folded into HAPI_WORLD_SYSTEMS.md Systems 9-11); retained for the Swarm-vs-Team distinction text (Swarm = many agents, same purpose; Team = fewer agents, diverse roles).
 2. `HAPI_WORLD.md` — SUPERSEDED (world definition and oversight model folded into HAPI_WORLD_SYSTEMS.md + HAPI_WORLD_COMPLETION.md); retained for the "full oversight, not direct participation" clarification.
-3. `SPOTIST_SEEK_CAPABILITY_AMENDMENT.md` — ACTIVE ecosystem amendment (not a draft); canonical source remains omnii/docs/canonical.
+3. `SPOTIST_SEEK_CAPABILITY_AMENDMENT.md` — ACTIVE ecosystem amendment (not a draft); canonical source is the promoted Carbon Actual SPOTIST architecture contracts.
 4. `SPOTIST_V2_RECONCILIATION.md` — product reconciliation record; retained.
 5. `BLOCKCHAIN_IDENTITY.md` — COMPLEMENTARY DRAFT (DID/ENS/HNS technical implementation; unique).
 6. `COMMON_DENOMINATORS.md` — COMPLEMENTARY DRAFT (component conformance checklist; unique).
@@ -61,7 +61,7 @@ Each draft extension's relationship to the ratified acts:
 8. `GOVERNANCE.md` — COMPLEMENTARY DRAFT (SealGrant rights/defaults formalization; unique).
 9. `INTEGRATION_ARCHITECTURE.md` — COMPLEMENTARY DRAFT (proven integration tooling: Zapier/Vercel/Supabase MCP; unique operational record).
 10. `LEDGERS.md` — COMPLEMENTARY DRAFT (named ledger views; Accounts System declares the machinery).
-11. `PRODUCTS.md` — COMPLEMENTARY DRAFT (product domain catalog with OMNII Common Layer mapping).
+11. `PRODUCTS.md` — COMPLEMENTARY DRAFT (product domain catalog with Carbon Actual Common Layer mapping).
 12. `REGISTRIES.md` — COMPLEMENTARY DRAFT (registry taxonomy mapping to ontology entities).
 
 No draft was deleted; superseded drafts are marked and retained as history per the Continuum law (nothing dies unrecorded).
