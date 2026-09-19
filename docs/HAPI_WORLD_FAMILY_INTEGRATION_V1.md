@@ -6,7 +6,7 @@ This repository is part of the HAPI World family and does not compete with HAPI 
 
 - `B3C0M1NG/HAPI` — human/API and identity boundary.
 - HAPI World — AI-native world implementation/domain.
-- `carbonactual/hapi-world-nexus` — network/integration/audit surface.
+- `carbonactual/hapi-world/nexus/` — merged network/integration/compatibility/audit composition; the standalone repository is archived.
 
 ## Inheritance
 
