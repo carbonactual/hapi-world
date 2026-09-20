@@ -1067,3 +1067,24 @@ The full additive act is recorded at `canon/AODS_HAPI_WORLD_CANONICAL_ACT_2026-0
 This act is subordinate to every higher-authority provision of this Canon. ABBA remains the master intelligence/orchestrator and executor, never the legislator. Human authority and Seal requirements remain constitutional boundaries for consequential action.
 
 The canonical 435-plate registry is maintained by the Carbon Actual operating spine. Unmapped plate ordinals remain addressable but must not be populated with fabricated historical facts.
+
+
+---
+
+# PART XXIII — UNIVERSAL COMPOSITION, EVENT & ECONOMIC FABRIC
+
+Ratified as a technical extension of this Canon on September 20, 2026.
+
+HAPI World inherits the Carbon Actual Universal Composition Spine as its reusable builder method. Products, worlds, institutions, agents, swarms and Teams compose shared primitives and capabilities rather than inventing local universal semantics.
+
+The shared fabric covers:
+- the nine-facet kernel;
+- common denominators;
+- capability/SWIRM/TEAM composition;
+- universal event and interaction forms, including in-person, virtual, remote, broadcast-only, hybrid and externally observed sessions;
+- session-scoped capacity and representation;
+- evidence/media provenance and event reconstruction;
+- economic objects including fiat, crypto-assets, commodities, minerals, food, energy, water, property, rights, capability, capacity, collateral, pawned items and opportunities;
+- distinct decimalization, fractionalization, tokenization, minting, decentralization, democratization, ledgering and settlement operations.
+
+All of these remain subordinate implementation semantics. They do not create a new constitutional kernel, and they do not give ABBA authority that the Canon does not already grant.
