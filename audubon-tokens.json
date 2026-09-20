@@ -1,0 +1,24 @@
+{
+  "system": "Audubon Design System (AODS)",
+  "version": "3.0.0-universal",
+  "source": "carbonactual/carbonactual/architecture/audubon-plate-manifest.json",
+  "plateRange": [
+    1,
+    435
+  ],
+  "defaults": {
+    "mode": "light-pristine",
+    "ratio": "60-30-10",
+    "glassBlurPx": 16
+  },
+  "families": [
+    "High Aerial & Sky",
+    "Deep Canopy & Timber",
+    "Coastal Salt Lagoon",
+    "Wetlands & River Basins",
+    "Open Marine Waters",
+    "Forest Floor & Soil",
+    "Tropical & Exo-Canopy",
+    "Nocturnal & Ridge"
+  ]
+}
