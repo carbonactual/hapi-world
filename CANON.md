@@ -1088,3 +1088,12 @@ The shared fabric covers:
 - distinct decimalization, fractionalization, tokenization, minting, decentralization, democratization, ledgering and settlement operations.
 
 All of these remain subordinate implementation semantics. They do not create a new constitutional kernel, and they do not give ABBA authority that the Canon does not already grant.
+
+
+## Universal Entity Capability Profile
+
+All recognized operational entities may use the shared Carbon Actual capability-bearing profile. Entity class affects context and legal meaning but does not create a separate capability ontology.
+
+The profile applies to persons, households, AI entities, companies, governments/public authorities, associations/cooperatives, institutions, products/services, assets/resources, places/territories, events/sessions and knowledge/media/document objects.
+
+Full capability means composability with relevant registered capabilities when identity, authority, eligibility, context, evidence and policy allow it. It does not mean universal permission.
