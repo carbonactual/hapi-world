@@ -1053,3 +1053,17 @@ This Canon is the supreme law. Everything inherits downward. Nothing overrides u
 *Carbon Actual — Extending human capability, preserving value, coordinating an evolving constitutional relationship between the Human World and HAPI World.*
 
 *BEING → BECOMING → ACTUAL*
+
+---
+
+# PART XXII — AODS & HAPI WORLD TIER II CANONICAL ACT
+
+## 47. Audubon Design System and Deep Architecture
+
+Ratified: September 20, 2026.
+
+The full additive act is recorded at `canon/AODS_HAPI_WORLD_CANONICAL_ACT_2026-09-20.md`. It establishes AODS as the shared ecological design/interaction doctrine and recognizes the Tier II HAPI World implementation boundaries: Minted Identity (#), BUNK, Io, Clinic, MorphForm, Swarm/Team, Knowledge, Value/Pulse, HAPI Bank, ASH/ECHO/PHOENIX, constitutional arbitration, cryptographic proof sealing, and the #R9 experimental unknown-entity stress profile.
+
+This act is subordinate to every higher-authority provision of this Canon. ABBA remains the master intelligence/orchestrator and executor, never the legislator. Human authority and Seal requirements remain constitutional boundaries for consequential action.
+
+The canonical 435-plate registry is maintained by the Carbon Actual operating spine. Unmapped plate ordinals remain addressable but must not be populated with fabricated historical facts.

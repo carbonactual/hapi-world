@@ -25,3 +25,9 @@
 
 ## Gaps identified
 Three folders (`environment/`, `geography/`, `society/`, `timeline/`) correspond to content referenced in the deprecated short-form constitution (Articles VI, VII, IX, XIV) but are **not yet fully specified** in CANON.md itself. If these folders contain real content, that content should be promoted into CANON.md as new Parts; if they're empty placeholders, that's a real gap between the folder structure and the ratified Canon worth closing.
+
+## Active 2026-09-20 additive architecture
+
+- `canon/AODS_HAPI_WORLD_CANONICAL_ACT_2026-09-20.md` — ratified AODS + Tier II extension.
+- `canon/REPOSITORY_CANON_LAW_1_0.md` — repository implementation law derived from CANON.md.
+- `carbonactual/carbonactual/architecture/audubon-plate-manifest.json` — canonical 1–435 plate registry source.
