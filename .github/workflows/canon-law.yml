@@ -1,0 +1,31 @@
+name: HAPI World Canon Law Conformance
+
+on:
+  push:
+    paths:
+      - "CANON.md"
+      - "ARCHITECTURE.md"
+      - "canon/**"
+      - "scripts/validate-canon-law.mjs"
+      - "tests/canon-law.test.mjs"
+  pull_request:
+    paths:
+      - "CANON.md"
+      - "ARCHITECTURE.md"
+      - "canon/**"
+      - "scripts/validate-canon-law.mjs"
+      - "tests/canon-law.test.mjs"
+
+jobs:
+  canon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "22"
+      - run: node scripts/validate-canon-law.mjs
+      - run: node --test tests/canon-law.test.mjs
