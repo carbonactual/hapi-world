@@ -1,4 +1,6 @@
-# HAPi Social Media Opportunity Register (Living Document — Oct 2026)
+# HAPi Social Media Opportunity Register
+
+> Companion register: HAPI_INDUSTRY_VERTICAL_MAP.md — the same 8-lane grid applied to every INDUSTRY vertical (platforms = where; industries = who). (Living Document — Oct 2026)
 
 > **This is the SURFACE layer.** The economic physics underneath lives in HAPI_CREATOR_MARKET_UNIVERSE.md (the LENS layer — the canon applied to creators). Read both.
 
