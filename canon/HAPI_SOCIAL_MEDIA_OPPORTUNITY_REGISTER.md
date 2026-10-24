@@ -1,5 +1,7 @@
 # HAPi Social Media Opportunity Register (Living Document — Oct 2026)
 
+> **This is the SURFACE layer.** The economic physics underneath lives in HAPI_CREATOR_MARKET_UNIVERSE.md (the LENS layer — the canon applied to creators). Read both.
+
 **Document type:** Platform and opportunity register (Division 2 living register + Division 18 classification)
 **Status:** v1 — update quarterly
 **Classification:** ESTABLISHED / EXPANDING / EMERGING / EXPERIMENTAL
