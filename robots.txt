@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Explicitly welcome all major engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+Sitemap: https://hapi-world-nexus.vercel.app/sitemap.xml
